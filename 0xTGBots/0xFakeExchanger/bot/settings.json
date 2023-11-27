@@ -1,0 +1,21 @@
+{
+  "tgToken": "",
+  "admins": [
+
+  ],
+  "currencies": {
+    "from": "UAH",
+    "to": "RUB",
+    "curr": "2.701",
+    "wallet": "2139udk1298fj10d0wje1jg19",
+    "supportUrl": "t.me/"
+  },
+  "mysqlConfig": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "dadada",
+    "database": "nowbot",
+    "charset": "utf8"
+  }
+}
