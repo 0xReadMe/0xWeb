@@ -1,0 +1,318 @@
+.chat-page{
+    padding-top:0 !important;
+}
+.regions-filter{
+    height: 33px;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px solid #f0f0f0;
+    box-sizing: border-box;
+}
+
+.pm_side .regions-filter a{
+    max-width: 270px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+.pm_side.collapsed .regions-filter a{
+    max-width: 80px;
+}
+.pm_contacts.has_filters{
+    top:88px !important;
+}
+.regions-filter .dropdown-menu{
+    padding: 5px 10px;
+}
+
+.chat-team{
+    max-width: 350px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.chat-team .avatar{
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+}
+.chat-team .btn-link{
+    cursor: pointer;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+#loading-bar, #loading-bar-spinner {
+    pointer-events: none;
+    -webkit-pointer-events: none;
+    -webkit-transition: 350ms linear all;
+    -moz-transition: 350ms linear all;
+    -o-transition: 350ms linear all;
+    transition: 350ms linear all
+}
+
+#loading-bar-spinner.ng-enter, #loading-bar-spinner.ng-leave.ng-leave-active, #loading-bar.ng-enter, #loading-bar.ng-leave.ng-leave-active {
+    opacity: 0
+}
+
+#loading-bar-spinner.ng-enter.ng-enter-active, #loading-bar-spinner.ng-leave, #loading-bar.ng-enter.ng-enter-active, #loading-bar.ng-leave {
+    opacity: 1
+}
+
+#loading-bar .bar {
+    -webkit-transition: width 350ms;
+    -moz-transition: width 350ms;
+    -o-transition: width 350ms;
+    transition: width 350ms;
+    background: #ffffff;
+    position: fixed;
+    z-index: 10002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: solid 1px #2b71b1;
+    height: 3px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px
+}
+
+#loading-bar .peg {
+    position: absolute;
+    width: 70px;
+    right: 0;
+    top: 0;
+    height: 2px;
+    opacity: .45;
+    -moz-box-shadow: #fff 1px 0 6px 1px;
+    -ms-box-shadow: #fff 1px 0 6px 1px;
+    -webkit-box-shadow: #fff 1px 0 6px 1px;
+    box-shadow: #fff 1px 0 6px 1px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%
+}
+
+#loading-bar-spinner {
+    display: block;
+    position: fixed;
+    z-index: 10002;
+    top: 10px;
+    left: 10px
+}
+
+#loading-bar-spinner .spinner-icon {
+    width: 14px;
+    height: 14px;
+    border: 2px solid transparent;
+    border-top-color: #2b71b1;
+    border-left-color: #2b71b1;
+    border-radius: 50%;
+    -webkit-animation: loading-bar-spinner 400ms linear infinite;
+    -moz-animation: loading-bar-spinner 400ms linear infinite;
+    -ms-animation: loading-bar-spinner 400ms linear infinite;
+    -o-animation: loading-bar-spinner 400ms linear infinite;
+    animation: loading-bar-spinner 400ms linear infinite
+}
+
+@-webkit-keyframes loading-bar-spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes loading-bar-spinner {
+    0% {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes loading-bar-spinner {
+    0% {
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes loading-bar-spinner {
+
+    0% {
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes loading-bar-spinner {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+#fixed li {
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+
+#fixed {
+    height: 200px;
+    overflow: auto;
+}
+
+.contacts {
+    float: left;
+    width: 300px;
+}
+
+.chat-photo{
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    margin: 0 5px 5px 0;
+    float: left;
+    border: 1px solid #f7f7f7;
+    cursor: zoom-in;
+}
+.chat-photo img{
+    margin: 0 auto;
+}
+
+.undelivered{
+    background: url(../images/dot-loader.gif) no-repeat right bottom;
+}
+
+.upload-progress {
+    line-height: 15px;
+}
+.upload-progress {
+    display: inline-block;
+    width: 100%;
+    border: 1px groove #f7f7f7;
+}
+.upload-progress div {
+    font-size: smaller;
+    padding: 3px;
+    background: #239bdb;
+    width: 0;
+}
+.form_message textarea{
+    resize: none;
+    height: 5.5em;
+}
+
+/* scaffolding */
+/* ----------- */
+
+.tt-dropdown-menu,
+.gist {
+    text-align: left;
+}
+
+.ng-invalid {
+    border-color: red !important; /* just for visual */
+}
+
+/* site theme */
+/* ---------- */
+.twitter-typeahead{padding: 0px;margin: 0px;box-sizing: border-box;top: 3px;width: 100%;}
+.typeahead,
+.tt-query,
+.tt-hint {
+    width: 396px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 24px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.typeahead {
+    background-color: #fff;
+}
+
+.typeahead:focus {
+    border: 2px solid #0097cf;
+}
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-menu {
+    width: 422px;
+    margin: 12px 0;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* -webkit-border-radius: 8px; */
+    -moz-border-radius: 8px;
+    /* border-radius: 8px; */
+    /* -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2); */
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tt-suggestion:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.pm_dialog__top .members{
+    max-width: 560px;
+}

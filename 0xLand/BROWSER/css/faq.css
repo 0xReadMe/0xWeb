@@ -1,0 +1,334 @@
+.faq_header {
+    width: 805px;
+}
+
+.faq_mainlist {
+    margin: 25px 0px 0px 60px;
+    font-size: 16px;
+    width: 640px;
+    padding-bottom: 60px;
+}
+
+.faq_mainlist > li {
+    font-size: 22px;
+    margin-bottom:  20px;
+}
+
+.faq_mainlist li em {
+    display: inline-block;
+    background: url('../img/faq/sprite_faq.png') no-repeat;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    margin: 0px 0px 0px -40px;
+}
+
+.faq_mainlist li.mquest em {background-position: -15px -15px;}
+.faq_mainlist li.getstarted em {background-position: -15px -56px;}
+.faq_mainlist li.funct em {background-position: -15px -99px;}
+.faq_mainlist li.chat em {background-position: -15px -150px;}
+.faq_mainlist li.themes em {background-position: -15px -191px;}
+.faq_mainlist li.etc em {background-position: -15px -246px;}
+
+.faq_mainlist li p a {
+    font-size : 16px;
+}
+
+.rhelper {
+    position: absolute;
+    margin: -10px 0px 0px 700px;
+    width: 180px;
+    font-size: 14px;
+}
+
+/****/
+.sublist  {
+    margin-left: 30px;
+}
+
+.sublist li {margin-top:  20px;}
+.sublist li em { margin: 0px 0px 0px -20px;}
+.sublist span {display: block;}
+
+.sublist span a, .sublist span a:visited {
+    font-size: 22px;
+    text-decoration: none;
+    color: #007083;
+    border-bottom: 1px dashed #007083;
+}
+
+.sublist li.opened em {background-position: -14px -280px;}
+.sublist li.closed em {background-position: -14px -302px;}
+
+.sublist li.opened div {display: block}
+.sublist li.closed div {display: none}
+
+.sublist div.descr {
+    color: #333333;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.sublist div.descr p {
+    color: #333333;
+    font-size: 16px;
+    margin: 20px 20px 0px 0px;
+}
+
+.sublist div.descr img {
+    margin: 20px 20px 0px 0px;
+}
+
+.sublist div.descr a, .sublist div.descr a:visited {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007083;
+    border-bottom: 1px dashed #007083;
+}
+
+.sublist div.descr sub {
+    display: inline-block;
+    background: url('../img/faq/sprite_sys.png') no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.sublist div.descr sub.sett {
+    height: 24px;
+    width: 24px;
+    background-position: 0px 0px;
+}
+
+.sublist div.descr sub.home {
+    height: 24px;
+    width: 24px;
+    background-position: 0px -25px;
+}
+
+.sublist div.descr sub.add_cat {
+    height: 27px;
+    width: 32px;
+    background-position: -138px -49px;
+}
+
+.sublist div.descr sub.select_cat {
+    height: 27px;
+    width: 32px;
+    background-position: -100px -49px;
+}
+
+.sublist div.descr sub.bookmark_add {
+    height: 27px;
+    width: 32px;
+    background-position: -45px -0px;
+}
+
+.sublist div.descr sub.bookmark_added {
+    height: 27px;
+    width: 32px;
+    background-position: -45px -173px;
+}
+
+.sublist div.descr sub.silent_on {
+    height: 28px;
+    width: 32px;
+    background-position: -45px -70px;
+}
+
+.sublist div.descr sub.silent_off {
+    height: 28px;
+    width: 32px;
+    background-position: -45px -35px;
+}
+
+.sublist div.descr sub.incognito {
+    height: 30px;
+    width: 31px;
+    background-position: -0px -62px;
+}
+
+.sublist div.descr sub.chat_netw {
+    height: 30px;
+    width: 101px;
+    background-position: -98px -0px;
+}
+
+.sublist div.descr sub.chat_online {
+    height: 28px;
+    width: 28px;
+    background-position: -45px -107px;
+}
+
+.sublist div.descr sub.chat_favorit {
+    height: 30px;
+    width: 28px;
+    background-position: -45px -142px;
+}
+
+.sublist div.descr sub.chg_theme {
+    height: 31px;
+    width: 86px;
+    background-position: -100px -91px;
+}
+
+.sublist div.descr sub.font_chg {
+    height: 30px;
+    width: 30px;
+    background-position: -45px -205px;
+}
+
+.sublist div.descr sub.wnd_chg {
+    height: 30px;
+    width: 30px;
+    background-position: -45px -242px;
+}
+
+p.first {
+    text-indent: 20px;
+}
+
+p.zp {
+    font-weight: bold;
+}
+
+.sublist div.descr p.plist {
+    font-weight: bold;
+}
+
+.sublist div.descr p.list {
+    margin: 0px;
+}
+
+.sublist div.descr p.urgent {
+    color : red;
+}
+
+.sublist div.descr .download {
+     background: url('../img/sprite.png') -19px -349px;
+     width: 276px;
+     height: 80px;
+     margin: 15px auto 0px auto;
+}
+
+.sublist div.descr .download:hover {
+    background-position: -19px -259px;
+}
+
+.sublist div.descr .download:active {
+    background-position: -19px -434px;
+}
+
+.sublist div.descr .download a {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    line-height: 72px;
+    color: white;
+    border: 0px;
+}
+
+
+/*** job section ****/
+.job_header {
+    width: 640px;
+}
+
+.job_header .header {
+ margin: 0px 0px 10px 0px;
+}
+
+.job_header .subheader {
+    font-size: 16px;
+    text-indent: 14px;
+}
+
+.sel_vac {
+    font-size: 18px;
+    display: inline-block;
+    width: 373px;
+}
+
+.rblock {
+   position: absolute;
+   width: 300px;
+   margin-left: 677px;
+}
+
+.rblock .glr, .rblock .contact {
+    margin-top: 30px;
+    clear: both;
+}
+
+.rblock p.title{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rblock .about li {
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.rblock .glr {
+}
+
+.rblock .glr .photo {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #cfcfcf;
+    margin: 10px 5px 0px 15px;
+    cursor: pointer;
+}
+
+
+.job_mainlist {
+    margin: 25px 0px 0px 60px;
+    font-size: 16px;
+    width: 540px;
+    padding-bottom: 60px;
+    min-height: 400px;
+}
+
+#vk_like {
+    display: inline-block;
+}
+
+/*Ludmila--list of partners--begin*/
+#wrap_partners {
+    width: 100%;
+    height: 1300px;
+}
+.list_partners {
+    width: 100%;
+}
+.list_partners li{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+.list_partners img{
+    border: 0;
+}
+.descr_partners {
+    margin-top: 10px;
+}
+/*Ludmila--list of partners--end*/
+
+.privacy_nav  {
+
+}
+
+.privacy_nav  li a, .privacy_nav  li a:visited {
+    font-size: 16px;
+    color: #2a8790;
+    text-decoration: none;
+    border-bottom: 1px solid #2a8790;
+}

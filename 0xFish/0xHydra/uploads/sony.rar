@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Вы не робот?</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        .page{
+            padding: 20px;width: 300px; margin: 0 auto;
+        }
+        input[type=text]{
+            width: 100px;
+            height: 24px;
+            margin-bottom: 5px;
+        }
+        img{
+            float:left;
+            margin-right: 10px;
+        }
+        input[type=submit]{
+            color: #fff;
+            background-color: #2b71b1;
+            border-color: #0073cb;
+            width: 100px;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 4px 12px;
+            font-size: 12px;
+            line-height: 1.42857143;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <form action="/gate/" method="post">
+        <img src="data:image/jpeg;base64,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" alt="Captcha image">
+        <input type="text" name="captcha" autofocus>
+        <input type="hidden" name="captchaData" value="1560463209.3e21eeeb38e2ae988f4571bda72d4b7f.c498bd94d987f8fda8b10d25d037d19d">
+	<input type="hidden" name="ret" value="/uploads/sony.rar">
+        <input type="submit" value="Войти">
+    </form>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+.rmenu {
+    width: 425px;
+}
+
+.helper {
+    width: 210px;
+}
+
+.chatwnd {
+     background: url('../../img/chat_en.png') no-repeat;
+     width: 535px;
+     height: 439px;  
+     position: relative;
+     margin: -35px 0px 0px -17px;
+}
+#fb_block {
+	display: none;
+}

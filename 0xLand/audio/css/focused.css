@@ -1,0 +1,16 @@
+.focused {
+  padding: 95px 0;
+  background-color: #ed4c5c;
+  overflow-x: hidden;
+}
+
+.focused .caption {
+  color: #ffffff;
+  margin-bottom: 55px;
+}
+
+.focused .focused__text {
+  font-size: 14px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=focused.css.map */

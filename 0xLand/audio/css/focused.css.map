@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,MAAM;EACf,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,MAAM;CASnB;;AAZD,AAIE,QAJM,CAIN,QAAQ,CAAC;EACP,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CACpB;;AAPH,AAQE,QARM,CAQN,cAAc,CAAC;EACb,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "focused.scss"
+    ],
+    "names": [],
+    "file": "focused.css"
+}

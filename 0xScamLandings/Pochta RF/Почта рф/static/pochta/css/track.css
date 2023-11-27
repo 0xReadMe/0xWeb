@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background: #ffffff;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 96px;
+}
+.mobile_logo{
+  display: none;
+}
+header a{
+  color: #0055a6;
+  text-decoration: none;
+  font-size: 18px;
+}
+header ul li{
+  display: inline;
+  margin: 0px 16px;
+}
+hr{
+  border-top: 1px solid lightgrey;
+}
+.track__title{
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(153, 153, 153);
+  margin: 50px;
+}
+.track_block{
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(179, 179, 179) 0px 2px 2px 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  transition: margin 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, background-color 0.1s ease-in-out 0s;
+}
+.title{
+  color: rgb(0, 85, 166);
+  font-size: 22px;
+  line-height: 30px;
+}
+.header_track, .main_block,.sender_info,.pay{
+  padding: 30px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date_send{
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  top: 54px;
+  left: 24px;
+}
+.track{
+  right: 24px;
+  top: 54px;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(153, 153, 153);
+  user-select: none;
+}
+.main_block, .sender_info,.pay{
+  border-top: 1px solid rgb(230, 230, 230);
+}
+.pochta{
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 8px;
+  padding: 12px 0px 0px;
+}
+.track_history h2{
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+  padding-bottom: 3px;
+  font-weight: normal;
+  margin: 0px;
+}
+.track_history span{
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  color: rgb(153, 153, 153);
+  flex-direction: column;
+  padding-bottom: 22px;
+}
+.sender_info div:first-of-type {
+  margin-bottom: 6px;
+}
+.sender_info div{
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  line-height: 18px;
+}
+.pay p{
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  color: rgb(51, 51, 51);
+  flex-direction: column;
+  padding-bottom: 22px;
+}
+.pay div{
+  text-align: center;
+}
+.pay button{
+  min-height: 31px;
+  min-width: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(1, 99, 196), rgb(1, 80, 159));
+  border-radius: 5px;
+  padding: 13px 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(1, 49, 97);
+  border-image: initial;
+  text-decoration: none;
+  margin: 24px auto 0px;
+}
+@media only screen and (max-width: 770px){
+  .info_track{
+      display: none;
+  }
+  .check_track form{
+      width: 100%;
+  }
+  .mobile_logo{
+      display: inline;
+      margin: 0 auto;
+  }
+  .logo{
+      display: none;
+  }
+  .menu{
+      display: none;
+  }
+  header{
+      text-align: center;
+  }
+}

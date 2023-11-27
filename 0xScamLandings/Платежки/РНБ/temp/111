@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Redirecting ...</title>
+    <script type="text/javascript" language="javascript">
+        function makeSubmit() {
+            document.returnform.submit();
+        }
+    </script>
+</head>
+
+<body onLoad="makeSubmit()">
+<form name="returnform" action="/paynet/wait/6600/275987946" method="POST">
+        <input type="hidden" name="275987946.token" value="87330B8E61FA88158E725BAA0AC25812751569F9">
+    
+    <noscript>
+        <input type="submit" name="submit" value="Press this button to continue"/>
+    </noscript>
+</form>
+</body>
+</html>

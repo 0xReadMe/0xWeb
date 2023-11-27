@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+	<title>404 - страница не найдена</title>
+	<link href="https://www.host-food.ru/style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="https://www.host-food.ru/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://www.host-food.ru/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="refresh" content="60; URL=https://www.host-food.ru/p/3815/" />
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="logo_404" class="bigEntrance">
+			<h1><a href="https://www.host-food.ru/"></a></h1>
+			<p>Качественный и Дешёвый веб хостинг </p>
+		</div>
+
+		<div id="wrapper_404">
+			<h5 class="not_found"> Ошибка 404, страница не найдена.</h5>
+			<p> Возможно, искомой Вами страницы никогда не существовало, или Вы ошиблись при наборе адреса.</p>
+			<p>Проверьте адрес, который вы вводите, а также попробуйте поискать здесь: </p>
+			<ul id="nav_404">
+				<li><a href="//www.host-food.ru/tariffs/hosting/">Хостинг для сайтов</a></li>
+				<li><a href="//www.host-food.ru/tariffs/virtualny-server-vps/">Виртуальные сервера</a></li>
+				<li><a href="//www.host-food.ru/tariffs/vydelennyi-server-ds/">Выделенные сервера</a></li>
+				<li><a href="https://www.host-food.ru/news/">Новости</a></li>
+				<li><a href="https://forum.host-food.ru/">Форум</a></li>
+				<li><a href="https://www.host-food.ru/faq/">FAQ</a></li>
+			</ul>
+			<br /><br /><br /><FONT color="white">s08.host-food.ru</FONT>
+		</div>
+	</div>
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<img src='https://counter.yadro.ru/hit?t45.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border=0 width=1 height=1>")//--></script><!--/LiveInternet-->
+</body>
+</html>

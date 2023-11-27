@@ -1,0 +1,22 @@
+html, body {
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .caption {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .caption {
+    font-size: 26px;
+  }
+}

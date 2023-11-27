@@ -1,0 +1,36 @@
+.overview {
+  padding: 95px 0;
+  .caption {
+    margin-bottom: 60px;
+  }
+  .overview__text {
+    font-size: 14px;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .overview {
+    padding: 60px 0;
+    .caption {
+      margin-bottom: 40px;
+    }
+    .overview__text {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .overview {
+    padding: 30px 0;
+    .caption {
+      margin-bottom: 30px;
+    }
+    .overview__text {
+      margin-bottom: 30px;
+    }
+  }
+}

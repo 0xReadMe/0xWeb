@@ -1,0 +1,2474 @@
+body,
+html {
+	height: 100%
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+body {
+	background: #fff;
+	line-height: 1
+}
+
+input,
+select,
+textarea {
+	margin: 0;
+	outline: 0;
+	font-family: arial, sans-serif
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: "";
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+video {
+	display: block
+}
+
+body {
+	font: normal 13px helvetica, arial, sans-serif;
+	line-height: 18px;
+	color: #333;
+	background: #f2f2f2;
+	min-width: 980px
+}
+
+img {
+	-ms-interpolation-mode: bicubic
+}
+
+a {
+	-webkit-transition: color .2s;
+	-o-transition: color .2s;
+	transition: color .2s
+}
+
+.pseudo-link,
+a {
+	text-decoration: none;
+	color: #06c
+}
+
+.pseudo-link {
+	cursor: pointer
+}
+
+.pseudo-link:hover,
+a:hover {
+	text-decoration: underline
+}
+
+b,
+strong {
+	color: #000;
+	font-weight: 700
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin: 0
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.counters {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.portal-menu {
+	z-index: 10
+}
+
+.body_fixed-width_no {
+	min-width: 0;
+	background: transparent
+}
+
+.body_fixed-height_no {
+	height: auto
+}
+
+.body_position_relative {
+	position: relative
+}
+
+.red {
+	color: red
+}
+
+.Errors {
+	margin-top: -10px
+}
+
+.html_responsive_yes {
+	font-size: 8px
+}
+
+.html_responsive_yes body {
+	min-width: 0
+}
+
+@media (min-width:320px) {
+	.html_responsive_yes {
+		font-size: 8px
+	}
+}
+
+@media (min-width:640px) {
+	.html_responsive_yes {
+		font-size: 12px
+	}
+}
+
+@media (min-width:1000px) {
+	.html_responsive_yes {
+		font-size: 10px
+	}
+}
+
+.icon_spin_clockwise,
+.icon_spin_counterclockwise {
+	-webkit-animation: spin-clockwise 2s infinite linear;
+	-o-animation: spin-clockwise 2s infinite linear;
+	animation: spin-clockwise 2s infinite linear
+}
+
+.icon_spin_counterclockwise {
+	-webkit-animation-direction: reverse;
+	-o-animation-direction: reverse;
+	animation-direction: reverse
+}
+
+.icon_steps_clockwise {
+	-webkit-animation-name: loader_steps_spin;
+	-o-animation-name: loader_steps_spin;
+	animation-name: loader_steps_spin;
+	-webkit-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: steps(12);
+	-o-animation-timing-function: steps(12);
+	animation-timing-function: steps(12)
+}
+
+@-webkit-keyframes spin-clockwise {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@-o-keyframes spin-clockwise {
+	0% {
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-o-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@keyframes spin-clockwise {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(1turn);
+		-o-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@-webkit-keyframes loader_steps_spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@-o-keyframes loader_steps_spin {
+	0% {
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-o-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@keyframes loader_steps_spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(1turn);
+		-o-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+.credit-card-form .credit-card-form__submit .button,
+.credit-card-form__popup-footer .button,
+.notification-block .button,
+.pay-card-layout_type_dc .credit-card-form__popup .button,
+.pay-card-layout_type_zz .credit-card-form__popup .button {
+	display: inline-block;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	background: transparent;
+	cursor: pointer;
+	text-decoration: none;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	white-space: nowrap
+}
+
+.credit-card-form .credit-card-form__submit .button:hover,
+.credit-card-form__popup-footer .button:hover,
+.notification-block .button:hover,
+.pay-card-layout_type_dc .credit-card-form__popup .button:hover,
+.pay-card-layout_type_zz .credit-card-form__popup .button:hover {
+	text-decoration: none
+}
+
+.credit-card-form .credit-card-form__submit .button,
+.credit-card-form__popup-footer .button,
+.notification-block .button,
+.pay-card-layout_type_dc .credit-card-form__popup .button,
+.pay-card-layout_type_zz .credit-card-form__popup .button {
+	margin: 0 -4px 0 0;
+	font: 700 12px arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #333;
+	border-radius: 3px;
+	padding: 0 28px;
+	height: 32px;
+	line-height: 32px
+}
+
+.credit-card-form_type_fotostrana .credit-card-form__popup-footer .button,
+.credit-card-form_type_fotostrana .credit-card-form__submit .button,
+.pay-card-layout_type_cloud-b2b .credit-card-form__popup .button,
+.pay-card-layout_type_zz .credit-card-form__popup .button,
+.pay-card_type_cloud-b2b .credit-card-form__submit .button,
+.pay-card_type_geekbrains .credit-card-form__popup .button,
+.pay-card_type_geekbrains .credit-card-form__submit .button,
+.pay-card_type_zz .credit-card-form__submit .button {
+	padding: 0 28px;
+	height: 40px;
+	line-height: 40px
+}
+
+.credit-card-form_type_fotostrana .credit-card-form__popup-footer .button,
+.credit-card-form_type_fotostrana .credit-card-form__submit .button,
+.pay-card-layout__notification_type_vk-mobile .info-block_type_question .button,
+.pay-card-layout__notification_type_vk-mobile .info-block_type_question .button_theme_vk-light,
+.pay-card-layout__notification_type_vk .info-block_type_question .button,
+.pay-card-layout__notification_type_vk .info-block_type_question .button_theme_vk-light,
+.pay-card-layout_type_cloud-b2b .credit-card-form__popup .button__light,
+.pay-card-layout_type_vk .credit-card-form__popup .button,
+.pay-card-layout_type_vk .credit-card-form__popup .button_theme_vk-light,
+.pay-card-layout_type_vk .credit-card-form__submit .button,
+.pay-card-layout_type_vk .credit-card-form__submit .button_theme_vk-light,
+.pay-card_type_cloud-b2b .credit-card-form__submit .button__light,
+.pay-card_type_cloud-b2c .credit-card-form__popup .button,
+.pay-card_type_cloud-b2c .credit-card-form__popup .button__light,
+.pay-card_type_cloud-b2c .credit-card-form__submit .button,
+.pay-card_type_cloud-b2c .credit-card-form__submit .button__light,
+.pay-card_type_geekbrains .credit-card-form__popup .button,
+.pay-card_type_geekbrains .credit-card-form__submit .button,
+.pay-card_type_mail .credit-card-form__popup .button,
+.pay-card_type_mail .credit-card-form__popup .button__light,
+.pay-card_type_mail .credit-card-form__submit .button,
+.pay-card_type_mail .credit-card-form__submit .button__light,
+.pay-card_type_tarantool .credit-card-form__popup .button,
+.pay-card_type_tarantool .credit-card-form__submit .button,
+.pay-card_type_vk-mobile .credit-card-form__popup .button,
+.pay-card_type_vk-mobile .credit-card-form__popup .button_theme_vk-light,
+.pay-card_type_vk-mobile .credit-card-form__submit .button,
+.pay-card_type_vk-mobile .credit-card-form__submit .button_theme_vk-light {
+	text-transform: none
+}
+
+.svg_yes .payment-systems-icon {
+	background-image: url("../img/payment-systems-icons.svg")
+}
+
+.svg_no .payment-systems-icon {
+	background-image: url("../img/payment-systems-icons.png?85")
+}
+
+.payment-systems-icon {
+	background-repeat: no-repeat
+}
+
+.payment-systems-icon_name_maestro {
+	background-position: 0 0;
+	width: 39px;
+	height: 24px
+}
+
+.pay-card_type_vk-wallet-android .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_vk-wallet-ios .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_vk-wallet .payment-systems-icons .payment-systems-icon_name_maestro,
+.payment-systems-icon_name_maestro_vk_wallet {
+	background-position: -44px 0;
+	width: 44px;
+	height: 24px
+}
+
+.payment-systems-icon_name_maestro_vk_wallet_gray {
+	background-position: -93px 0;
+	width: 44px;
+	height: 24px
+}
+
+.pay-card-layout_type_lootdog .payment-systems-icons .payment-systems-icon_name_maestro,
+.payment-systems-icon_name_maestro_lootdog {
+	background-position: -142px 0;
+	width: 25px;
+	height: 16px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_maestro,
+.payment-systems-icon_name_maestro_youla_mobile {
+	background-position: -172px 0;
+	width: 36px;
+	height: 22px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_maestro_youla_mobile_gray {
+	background-position: -213px 0;
+	width: 36px;
+	height: 22px
+}
+
+.credit-card-form .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_maestro_gray {
+	background-position: -254px 0;
+	width: 39px;
+	height: 24px
+}
+
+.credit-card-form_size_small .payment-systems-icon_name_maestro,
+.credit-card-form_size_x-small .payment-systems-icon_name_maestro,
+.pay-card_type_citymobil .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_mapsme .payment-systems-icon_name_maestro,
+.pay-card_type_wamba .payment-systems-icons .payment-systems-icon_name_maestro,
+.payment-systems-icon_name_maestro_small {
+	background-position: -298px 0;
+	width: 29px;
+	height: 18px
+}
+
+.credit-card-form .payment-systems-icon_name_maestro_small.payment-systems-icon_disabled_yes,
+.credit-card-form_size_small .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.credit-card-form_size_x-small .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_mapsme .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_maestro_gray_small {
+	background-position: -332px 0;
+	width: 29px;
+	height: 18px
+}
+
+.pay-card-layout_type_standard_theme_black .credit-card-form_size_x-small .payment-systems-icon_name_maestro,
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_maestro,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_maestro,
+.payment-systems-icon_name_maestro_smaller {
+	background-position: -366px 0;
+	width: 26px;
+	height: 16px
+}
+
+.credit-card-form .payment-systems-icon_name_maestro_smaller.payment-systems-icon_disabled_yes,
+.pay-card-layout_type_standard_theme_black .credit-card-form_size_x-small .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_maestro.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_maestro_gray_smaller {
+	background-position: -397px 0;
+	width: 26px;
+	height: 16px
+}
+
+.payment-systems-icon_name_maestro_big {
+	background-position: -428px 0;
+	width: 52px;
+	height: 32px
+}
+
+.credit-card-form .payment-systems-icon_name_maestro_big.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_maestro_gray_big {
+	background-position: -485px 0;
+	width: 52px;
+	height: 32px
+}
+
+.pay-card_type_vk-wallet-android .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_vk-wallet-ios .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_vk-wallet .payment-systems-icons .payment-systems-icon_name_mastercard,
+.payment-systems-icon_name_mastercard_vk_wallet {
+	background-position: -542px 0;
+	width: 44px;
+	height: 24px
+}
+
+.payment-systems-icon_name_mastercard_vk_wallet_gray {
+	background-position: -591px 0;
+	width: 44px;
+	height: 24px
+}
+
+.pay-card-layout_type_lootdog .payment-systems-icons .payment-systems-icon_name_mastercard,
+.payment-systems-icon_name_mastercard_lootdog {
+	background-position: -640px 0;
+	width: 25px;
+	height: 16px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_mastercard,
+.payment-systems-icon_name_mastercard_youla_mobile {
+	background-position: -670px 0;
+	width: 36px;
+	height: 22px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mastercard_youla_mobile_gray {
+	background-position: -711px 0;
+	width: 36px;
+	height: 22px
+}
+
+.payment-systems-icon_name_mastercard {
+	background-position: -752px 0;
+	width: 39px;
+	height: 24px
+}
+
+.credit-card-form .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mastercard_gray {
+	background-position: -796px 0;
+	width: 39px;
+	height: 24px
+}
+
+.credit-card-form_size_small .payment-systems-icon_name_mastercard,
+.credit-card-form_size_x-small .payment-systems-icon_name_mastercard,
+.pay-card_type_citymobil .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_mapsme .payment-systems-icon_name_mastercard,
+.pay-card_type_wamba .payment-systems-icons .payment-systems-icon_name_mastercard,
+.payment-systems-icon_name_mastercard_small {
+	background-position: -840px 0;
+	width: 29px;
+	height: 18px
+}
+
+.credit-card-form .payment-systems-icon_name_mastercard_small.payment-systems-icon_disabled_yes,
+.credit-card-form_size_small .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.credit-card-form_size_x-small .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_mapsme .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mastercard_gray_small {
+	background-position: -874px 0;
+	width: 29px;
+	height: 18px
+}
+
+.pay-card-layout_type_standard_theme_black .credit-card-form_size_x-small .payment-systems-icon_name_mastercard,
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_mastercard,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_mastercard,
+.payment-systems-icon_name_mastercard_smaller {
+	background-position: -908px 0;
+	width: 26px;
+	height: 16px
+}
+
+.credit-card-form .payment-systems-icon_name_mastercard_smaller.payment-systems-icon_disabled_yes,
+.pay-card-layout_type_standard_theme_black .credit-card-form_size_x-small .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_mastercard.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mastercard_gray_smaller {
+	background-position: -939px 0;
+	width: 26px;
+	height: 16px
+}
+
+.payment-systems-icon_name_mastercard_big {
+	background-position: -970px 0;
+	width: 51px;
+	height: 32px
+}
+
+.credit-card-form .payment-systems-icon_name_mastercard_big.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mastercard_gray_big {
+	background-position: -1026px 0;
+	width: 51px;
+	height: 32px
+}
+
+.payment-systems-icon_name_visa {
+	background-position: -1082px 0;
+	width: 40px;
+	height: 13px
+}
+
+.pay-card_type_vk-wallet-android .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_vk-wallet-ios .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_vk-wallet .payment-systems-icons .payment-systems-icon_name_visa,
+.payment-systems-icon_name_visa_vk_wallet {
+	background-position: -1127px 0;
+	width: 44px;
+	height: 24px
+}
+
+.payment-systems-icon_name_visa_vk_wallet_gray {
+	background-position: -1176px 0;
+	width: 44px;
+	height: 24px
+}
+
+.pay-card-layout_type_lootdog .payment-systems-icons .payment-systems-icon_name_visa,
+.payment-systems-icon_name_visa_lootdog {
+	background-position: -1225px 0;
+	width: 48px;
+	height: 16px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_visa,
+.payment-systems-icon_name_visa_youla_mobile {
+	background-position: -1278px 0;
+	width: 42px;
+	height: 22px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_visa_youla_mobile_gray {
+	background-position: -1325px 0;
+	width: 42px;
+	height: 22px
+}
+
+.credit-card-form .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_visa_gray {
+	background-position: -1372px 0;
+	width: 40px;
+	height: 13px
+}
+
+.credit-card-form_size_small .payment-systems-icon_name_visa,
+.credit-card-form_size_x-small .payment-systems-icon_name_visa,
+.pay-card_type_citymobil .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_wamba .payment-systems-icons .payment-systems-icon_name_visa,
+.payment-systems-icon_name_visa_small {
+	background-position: -1417px 0;
+	width: 37px;
+	height: 12px
+}
+
+.credit-card-form .payment-systems-icon_name_visa_small.payment-systems-icon_disabled_yes,
+.credit-card-form_size_small .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.credit-card-form_size_x-small .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_visa_gray_small {
+	background-position: -1459px 0;
+	width: 37px;
+	height: 12px
+}
+
+.pay-card-layout_type_standard_theme_black .credit-card-form_size_x-small .payment-systems-icon_name_visa,
+.payment-systems-icon_name_visa_standard_white {
+	background-position: -1501px 0;
+	width: 34px;
+	height: 12px
+}
+
+.pay-card-layout_type_standard_theme_black .credit-card-form_size_x-small .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_visa_standard_gray {
+	background-position: -1540px 0;
+	width: 34px;
+	height: 12px
+}
+
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_visa,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_visa,
+.payment-systems-icon_name_visa_smaller {
+	background-position: -1579px 0;
+	width: 28px;
+	height: 9px
+}
+
+.credit-card-form .payment-systems-icon_name_visa_smaller.payment-systems-icon_disabled_yes,
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_visa.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_visa_gray_smaller {
+	background-position: -1612px 0;
+	width: 28px;
+	height: 9px
+}
+
+.payment-systems-icon_name_visa_big {
+	background-position: -1645px 0;
+	width: 64px;
+	height: 21px
+}
+
+.credit-card-form .payment-systems-icon_name_visa_big.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_visa_gray_big {
+	background-position: -1714px 0;
+	width: 64px;
+	height: 21px
+}
+
+.payment-systems-icon_name_mir {
+	background-position: -1783px 0;
+	width: 42px;
+	height: 12px
+}
+
+.credit-card-form .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mir_gray {
+	background-position: -1830px 0;
+	width: 42px;
+	height: 12px
+}
+
+.credit-card-form_size_small .payment-systems-icon_name_mir,
+.credit-card-form_size_x-small .payment-systems-icon_name_mir,
+.pay-card_type_citymobil .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_wamba .payment-systems-icons .payment-systems-icon_name_mir,
+.payment-systems-icon_name_mir_small {
+	background-position: -1877px 0;
+	width: 39px;
+	height: 11px
+}
+
+.pay-card_type_vk-wallet-android .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_vk-wallet-ios .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_vk-wallet .payment-systems-icons .payment-systems-icon_name_mir,
+.payment-systems-icon_name_mir_vk_wallet {
+	background-position: -1921px 0;
+	width: 44px;
+	height: 24px
+}
+
+.payment-systems-icon_name_mir_vk_wallet_gray {
+	background-position: -1970px 0;
+	width: 44px;
+	height: 24px
+}
+
+.pay-card-layout_type_lootdog .payment-systems-icons .payment-systems-icon_name_mir,
+.payment-systems-icon_name_mir_lootdog {
+	background-position: -2019px 0;
+	width: 48px;
+	height: 16px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_mir,
+.payment-systems-icon_name_mir_youla_mobile {
+	background-position: -2072px 0;
+	width: 64px;
+	height: 22px
+}
+
+.pay-card_type_youla-mobile .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mir_youla_mobile_gray {
+	background-position: -2141px 0;
+	width: 64px;
+	height: 22px
+}
+
+.credit-card-form .payment-systems-icon_name_mir_small.payment-systems-icon_disabled_yes,
+.credit-card-form_size_small .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.credit-card-form_size_x-small .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.pay-card_type_mail-mobile .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mir_gray_small {
+	background-position: -2210px 0;
+	width: 39px;
+	height: 11px
+}
+
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_mir,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_mir,
+.payment-systems-icon_name_mir_smaller {
+	background-position: -2254px 0;
+	width: 32px;
+	height: 9px
+}
+
+.credit-card-form .payment-systems-icon_name_mir_smaller.payment-systems-icon_disabled_yes,
+.pay-card_type_dc-mobile .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.pay-card_type_dc .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.pay-card_type_vk-mobile .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.pay-card_type_zz-mobile .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.pay-card_type_zz .payment-systems-icons .payment-systems-icon_name_mir.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mir_gray_smaller {
+	background-position: -2291px 0;
+	width: 32px;
+	height: 9px
+}
+
+.payment-systems-icon_name_mir_big {
+	background-position: -2328px 0;
+	width: 74px;
+	height: 21px
+}
+
+.credit-card-form .payment-systems-icon_name_mir_big.payment-systems-icon_disabled_yes,
+.payment-systems-icon_name_mir_gray_big {
+	background-position: -2407px 0;
+	width: 74px;
+	height: 21px
+}
+
+.payment-systems-icon_name_mastercard-with-signature {
+	background-position: -2486px 0;
+	width: 54px;
+	height: 44px
+}
+
+.pay-card_type_vk-wallet-android .payment-systems-icons .payment-systems-icon_name_new_card,
+.pay-card_type_vk-wallet-ios .payment-systems-icons .payment-systems-icon_name_new_card,
+.pay-card_type_vk-wallet .payment-systems-icons .payment-systems-icon_name_new_card,
+.payment-systems-icon_name_new_card_vk_wallet {
+	background-position: -2545px 0;
+	width: 44px;
+	height: 24px
+}
+
+.pay-card_type_citymobil .payment-systems-icons .payment-systems-icon_name_new_card,
+.payment-systems-icon_name_new_card_citymobil {
+	background-position: -2594px 0;
+	width: 30px;
+	height: 18px
+}
+
+.payment-systems-icon_name_amex {
+	background-position: -2629px 0;
+	width: 23px;
+	height: 16px
+}
+
+.payment-systems-icon_name_bankontact {
+	background-position: -2657px 0;
+	width: 26px;
+	height: 16px
+}
+
+.payment-systems-icon_name_cardblue {
+	background-position: -2688px 0;
+	width: 23px;
+	height: 16px
+}
+
+.payment-systems-icon_name_dinersclub {
+	background-position: -2716px 0;
+	width: 20px;
+	height: 16px
+}
+
+.payment-systems-icon_name_discover {
+	background-position: -2741px 0;
+	width: 25px;
+	height: 16px
+}
+
+.payment-systems-icon_name_jcb {
+	background-position: -2771px 0;
+	width: 21px;
+	height: 16px
+}
+
+
+
+.credit-card-form__tooltip_type_cvv .credit-card-form__tooltip-icon,
+.credit-card-icon_name_cvv {
+	background-position: 0 0;
+	width: 276px;
+	height: 45px
+}
+
+.acceptable-card-types-tooltip__icon,
+.credit-card-form__cvv-icon,
+.credit-card-icon_name_i {
+	background-position: 0 -46px;
+	width: 13px;
+	height: 13px
+}
+
+.credit-card-form__label:hover .credit-card-form__cvv-icon,
+.credit-card-icon_name_i-active-yes {
+	background-position: -14px -46px;
+	width: 13px;
+	height: 13px
+}
+
+.svg_yes .waiter-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/waiter-icons/waiter-icons.svg?85")
+}
+
+.svg_no .waiter-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/waiter-icons/waiter-icons.png?85")
+}
+
+.waiter-icon {
+	background-repeat: no-repeat
+}
+
+.waiter-icon_name_alert {
+	background-position: 0 0;
+	width: 62px;
+	height: 53px
+}
+
+.waiter-icon_name_fail {
+	background-position: -67px 0;
+	width: 65px;
+	height: 65px
+}
+
+.waiter-icon_name_load {
+	background-position: -137px 0;
+	width: 65px;
+	height: 65px
+}
+
+.waiter-icon_name_success {
+	background-position: -207px 0;
+	width: 65px;
+	height: 65px
+}
+
+.svg_yes .geekbrains-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/geekbrains-icons/geekbrains-icons.svg?85")
+}
+
+.svg_no .geekbrains-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/geekbrains-icons/geekbrains-icons.png?85")
+}
+
+.geekbrains-icon {
+	background-repeat: no-repeat
+}
+
+.geekbrains-icon_name_fail {
+	background-position: 0 0;
+	width: 40px;
+	height: 40px
+}
+
+.geekbrains-icon_name_load {
+	background-position: -45px 0;
+	width: 32px;
+	height: 32px
+}
+
+.geekbrains-icon_name_success {
+	background-position: -82px 0;
+	width: 40px;
+	height: 40px
+}
+
+.svg_yes .pay-card-layout_type_standard_theme_black .waiter-icon,
+.svg_yes .standard-black-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/standard-black-icons/standard-black-icons.svg?85")
+}
+
+.svg_no .pay-card-layout_type_standard_theme_black .waiter-icon,
+.svg_no .standard-black-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/standard-black-icons/standard-black-icons.png?85")
+}
+
+.standard-black-icon {
+	background-repeat: no-repeat
+}
+
+.pay-card-layout_type_standard_theme_black .waiter-icon_name_alert,
+.pay-card-layout_type_standard_theme_black .waiter-icon_name_fail,
+.standard-black-icon_name_fail {
+	background-position: 0 0;
+	width: 50px;
+	height: 50px
+}
+
+.pay-card-layout_type_standard_theme_black .waiter-icon_name_load,
+.standard-black-icon_name_load {
+	background-position: -55px 0;
+	width: 50px;
+	height: 50px
+}
+
+.pay-card-layout_type_standard_theme_black .waiter-icon_name_success,
+.standard-black-icon_name_success {
+	background-position: -110px 0;
+	width: 50px;
+	height: 50px
+}
+
+.standard-black-icon_name_error {
+	background-position: -165px 0;
+	width: 18px;
+	height: 18px
+}
+
+.svg_yes .vesna-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vesna-icons/vesna-icons.svg?85")
+}
+
+.svg_no .vesna-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vesna-icons/vesna-icons.png?85")
+}
+
+.vesna-icon {
+	background-repeat: no-repeat
+}
+
+.vesna-icon_name_alert {
+	background-position: 0 0;
+	width: 114px;
+	height: 102px
+}
+
+.vesna-icon_name_load {
+	background-position: -119px 0;
+	width: 116px;
+	height: 116px
+}
+
+.vesna-icon_name_success {
+	background-position: -240px 0;
+	width: 116px;
+	height: 116px
+}
+
+.svg_yes .dc-icon,
+.svg_yes .pay-card-layout_type_dc-mobile .info-block_type_error .info-block__content:before,
+.svg_yes .secure-information_type_dc-mobile .secure-information__icon,
+.svg_yes .secure-information_type_dc .secure-information__icon {
+	background-image: url("youla-mobile-icons.svg")
+}
+
+.svg_no .dc-icon,
+.svg_no .pay-card-layout_type_dc-mobile .info-block_type_error .info-block__content:before,
+.svg_no .secure-information_type_dc-mobile .secure-information__icon,
+.svg_no .secure-information_type_dc .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/dc-icons/dc-icons.png?85")
+}
+
+.dc-icon {
+	background-repeat: no-repeat
+}
+
+.dc-icon_name_load {
+	background-position: 0 0;
+	width: 48px;
+	height: 48px
+}
+
+.dc-icon_name_load-theme-mcd,
+.pay-card-layout_type_dc-mobile_theme_mcd .dc-icon_name_load,
+.pay-card-layout_type_dc_theme_mcd .dc-icon_name_load {
+	background-position: -53px 0;
+	width: 48px;
+	height: 48px
+}
+
+.dc-icon_name_logo {
+	background-position: -106px 0;
+	width: 115px;
+	height: 36px
+}
+
+.dc-icon_name_logo-theme-mcd {
+	background-position: -226px 0;
+	width: 40px;
+	height: 35px
+}
+
+.dc-icon_name_green-lock,
+.secure-information_type_dc-mobile .secure-information__icon,
+.secure-information_type_dc .secure-information__icon {
+	background-position: -271px 0;
+	width: 12px;
+	height: 16px
+}
+
+.dc-icon_name_yellow-lock,
+.pay-card-layout_type_dc-mobile_theme_mcd .secure-information_type_dc-mobile .secure-information__icon,
+.pay-card-layout_type_dc_theme_mcd .secure-information_type_dc .secure-information__icon {
+	background-position: -288px 0;
+	width: 12px;
+	height: 16px
+}
+
+.dc-icon_name_close {
+	background-position: -305px 0;
+	width: 24px;
+	height: 24px
+}
+
+.svg_yes .pay-card-layout_type_zz-mobile .credit-card-form__popup-body_type_loader .info-block__img-wrapper .img,
+.svg_yes .pay-card-layout_type_zz-mobile .credit-card-form__popup-body_type_loader .info-block__img-wrapper:before,
+.svg_yes .pay-card-layout_type_zz-mobile .info-block_type_error .info-block__content:before,
+.svg_yes .pay-card-layout_type_zz .credit-card-form__popup-body_type_loader .info-block__img-wrapper .img,
+.svg_yes .pay-card-layout_type_zz .credit-card-form__popup-body_type_loader .info-block__img-wrapper:before,
+.svg_yes .pay-card-layout_type_zz .info-block_type_error .info-block__content:before,
+.svg_yes .secure-information_type_zz-mobile .secure-information__icon,
+.svg_yes .secure-information_type_zz .secure-information__icon,
+.svg_yes .zz-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/zz-icons/zz-icons.svg?85")
+}
+
+.svg_no .pay-card-layout_type_zz-mobile .credit-card-form__popup-body_type_loader .info-block__img-wrapper .img,
+.svg_no .pay-card-layout_type_zz-mobile .credit-card-form__popup-body_type_loader .info-block__img-wrapper:before,
+.svg_no .pay-card-layout_type_zz-mobile .info-block_type_error .info-block__content:before,
+.svg_no .pay-card-layout_type_zz .credit-card-form__popup-body_type_loader .info-block__img-wrapper .img,
+.svg_no .pay-card-layout_type_zz .credit-card-form__popup-body_type_loader .info-block__img-wrapper:before,
+.svg_no .pay-card-layout_type_zz .info-block_type_error .info-block__content:before,
+.svg_no .secure-information_type_zz-mobile .secure-information__icon,
+.svg_no .secure-information_type_zz .secure-information__icon,
+.svg_no .zz-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/zz-icons/zz-icons.png?85")
+}
+
+.zz-icon {
+	background-repeat: no-repeat
+}
+
+.zz-icon_name_fail {
+	background-position: 0 0;
+	width: 56px;
+	height: 56px
+}
+
+.zz-icon_name_fail-gray {
+	background-position: -61px 0;
+	width: 56px;
+	height: 56px
+}
+
+.pay-card-layout_type_zz-mobile .credit-card-form__popup-body_type_loader .info-block__img-wrapper .img,
+.pay-card-layout_type_zz .credit-card-form__popup-body_type_loader .info-block__img-wrapper .img,
+.zz-icon_name_load {
+	background-position: -122px 0;
+	width: 24px;
+	height: 24px
+}
+
+.zz-icon_name_logo {
+	background-position: -151px 0;
+	width: 73px;
+	height: 16px
+}
+
+.zz-icon_name_logo-big {
+	background-position: -229px 0;
+	width: 110px;
+	height: 24px
+}
+
+.pay-card-layout_type_zz-mobile .info-block_type_error .info-block__content:before,
+.zz-icon_name_close {
+	background-position: -344px 0;
+	width: 24px;
+	height: 24px
+}
+
+.zz-icon_name_success {
+	background-position: -373px 0;
+	width: 60px;
+	height: 45px
+}
+
+.secure-information_type_zz-mobile .secure-information__icon,
+.secure-information_type_zz .secure-information__icon,
+.zz-icon_name_green-lock {
+	background-position: -438px 0;
+	width: 12px;
+	height: 16px
+}
+
+.svg_yes .pay-card-layout_type_vk .secure-information__icon,
+.svg_yes .vk-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-icons/vk-icons.svg?85")
+}
+
+.svg_no .pay-card-layout_type_vk .secure-information__icon,
+.svg_no .vk-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-icons/vk-icons.png?85")
+}
+
+.vk-icon {
+	background-repeat: no-repeat
+}
+
+.vk-icon_name_logo {
+	background-position: 0 0;
+	width: 26px;
+	height: 26px
+}
+
+.pay-card-layout_type_vk .secure-information__icon,
+.vk-icon_name_green-lock {
+	background-position: -31px 0;
+	width: 12px;
+	height: 14px
+}
+
+.svg_yes .pay-card-layout_type_vk-mobile .secure-information__icon,
+.svg_yes .vk-mobile-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-mobile-icons/vk-mobile-icons.svg?85")
+}
+
+.svg_no .pay-card-layout_type_vk-mobile .secure-information__icon,
+.svg_no .vk-mobile-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-mobile-icons/vk-mobile-icons.png?85")
+}
+
+.vk-mobile-icon {
+	background-repeat: no-repeat
+}
+
+.vk-mobile-icon_name_logo {
+	background-position: 0 0;
+	width: 48px;
+	height: 48px
+}
+
+.pay-card-layout_type_vk-mobile .secure-information__icon,
+.vk-mobile-icon_name_green-lock {
+	background-position: -53px 0;
+	width: 12px;
+	height: 14px
+}
+
+.vk-mobile-icon_name_load {
+	background-position: -70px 0;
+	width: 48px;
+	height: 48px
+}
+
+.svg_yes .amru-mobile-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/amru-mobile-icons/amru-mobile-icons.svg?85")
+}
+
+.svg_no .amru-mobile-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/amru-mobile-icons/amru-mobile-icons.png?85")
+}
+
+.amru-mobile-icon {
+	background-repeat: no-repeat
+}
+
+.amru-mobile-icon_name_rub {
+	background-position: 0 0;
+	width: 36px;
+	height: 36px
+}
+
+.amru-mobile-icon_name_success {
+	background-position: -41px 0;
+	width: 116px;
+	height: 116px
+}
+
+.svg_yes .mail-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/mail-icons/mail-icons.svg?85")
+}
+
+.svg_no .mail-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/mail-icons/mail-icons.png?85")
+}
+
+.mail-icon {
+	background-repeat: no-repeat
+}
+
+.mail-icon_name_load {
+	background-position: 0 0;
+	width: 40px;
+	height: 40px
+}
+
+.mail-icon_name_success {
+	background-position: -45px 0;
+	width: 96px;
+	height: 96px
+}
+
+.mail-icon_name_alert {
+	background-position: -146px 0;
+	width: 96px;
+	height: 96px
+}
+
+.mail-icon_name_fail {
+	background-position: -247px 0;
+	width: 96px;
+	height: 96px
+}
+
+.mail-icon_name_bank {
+	background-position: -348px 0;
+	width: 14px;
+	height: 14px
+}
+
+.mail-icon_name_logo-combo-russian {
+	background-position: -367px 0;
+	width: 129px;
+	height: 54px
+}
+
+.svg_yes .secure-information_type_amru-mobile .secure-information__icon,
+.svg_yes .secure-information_type_amru .secure-information__icon,
+.svg_yes .secure-information_type_jinn .secure-information__icon,
+.svg_yes .secure-information_type_youla-mobile .secure-information__icon,
+.svg_yes .secure-information_type_youla .secure-information__icon,
+.svg_yes .youla-mobile-icon {
+	background-image: url("youla-mobile-icons.svg")
+}
+
+.svg_no .secure-information_type_amru-mobile .secure-information__icon,
+.svg_no .secure-information_type_amru .secure-information__icon,
+.svg_no .secure-information_type_jinn .secure-information__icon,
+.svg_no .secure-information_type_youla-mobile .secure-information__icon,
+.svg_no .secure-information_type_youla .secure-information__icon,
+.svg_no .youla-mobile-icon {
+	background-image: url("youla-mobile-icons.png?85")
+}
+
+.youla-mobile-icon {
+	background-repeat: no-repeat
+}
+
+.secure-information_type_amru-mobile .secure-information__icon,
+.secure-information_type_amru .secure-information__icon,
+.secure-information_type_jinn .secure-information__icon,
+.secure-information_type_youla-mobile .secure-information__icon,
+.secure-information_type_youla .secure-information__icon,
+.youla-mobile-icon_name_secure-icon {
+	background-position: 0 0;
+	width: 16px;
+	height: 16px
+}
+
+.svg_yes .protection-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/protection-icons/protection-icons.svg?85")
+}
+
+.svg_no .protection-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/protection-icons/protection-icons.png?85")
+}
+
+.protection-icon {
+	background-repeat: no-repeat
+}
+
+.protection-icon_name_pci-dss {
+	background-position: 0 0;
+	width: 78px;
+	height: 30px
+}
+
+.protection-icon_name_pci-dss_small {
+	background-position: -83px 0;
+	width: 52px;
+	height: 20px
+}
+
+.protection-icon_name_pci-dss_white {
+	background-position: -140px 0;
+	width: 78px;
+	height: 30px
+}
+
+.protection-icon_name_pci-dss_white_small {
+	background-position: -223px 0;
+	width: 52px;
+	height: 20px
+}
+
+.protection-icon_name_pci-dss_gray_small {
+	background-position: -280px 0;
+	width: 52px;
+	height: 20px
+}
+
+.protection-icon_name_mastercard {
+	background-position: -337px 0;
+	width: 98px;
+	height: 30px
+}
+
+.protection-icon_name_mastercard_small {
+	background-position: -440px 0;
+	width: 65px;
+	height: 20px
+}
+
+.protection-icon_name_mastercard_white {
+	background-position: -510px 0;
+	width: 98px;
+	height: 30px
+}
+
+.protection-icon_name_mastercard_white_small {
+	background-position: -613px 0;
+	width: 65px;
+	height: 20px
+}
+
+.protection-icon_name_mastercard_gray_small {
+	background-position: -683px 0;
+	width: 65px;
+	height: 20px
+}
+
+.protection-icon_name_visa {
+	background-position: -753px 0;
+	width: 69px;
+	height: 30px
+}
+
+.protection-icon_name_visa_small {
+	background-position: -827px 0;
+	width: 46px;
+	height: 20px
+}
+
+.protection-icon_name_visa_white {
+	background-position: -878px 0;
+	width: 69px;
+	height: 30px
+}
+
+.protection-icon_name_visa_white_small {
+	background-position: -952px 0;
+	width: 46px;
+	height: 20px
+}
+
+.protection-icon_name_visa_gray_small {
+	background-position: -1003px 0;
+	width: 46px;
+	height: 20px
+}
+
+.protection-icon_name_mir-accept_small {
+	background-position: -1054px 0;
+	width: 42px;
+	height: 20px
+}
+
+.protection-icon_name_mir-accept {
+	background-position: -1101px 0;
+	width: 63px;
+	height: 30px
+}
+
+.protection-icon_name_mir-accept_h27 {
+	background-position: -1169px 0;
+	width: 57px;
+	height: 27px
+}
+
+.protection-icon_name_pci-dss_xsmall {
+	background-position: -1231px 0;
+	width: 39px;
+	height: 15px
+}
+
+.protection-icon_name_mastercard_xsmall {
+	background-position: -1275px 0;
+	width: 49px;
+	height: 15px
+}
+
+.protection-icon_name_visa_xsmall {
+	background-position: -1329px 0;
+	width: 35px;
+	height: 15px
+}
+
+.svg_yes .control__select_type_vk.control__select.selectBox-dropdown .selectBox-arrow,
+.svg_yes .extended-select-box .selectBox-dropdown-menu .selectBox-option.selectBox-selected:after,
+.svg_yes .pay-card_type_vk-wallet-android .credit-card-form__label .credit-card-form__cvv-icon,
+.svg_yes .pay-card_type_vk-wallet-android .pay-card__select-card .control-label:after,
+.svg_yes .pay-card_type_vk-wallet-ios .credit-card-form__label .credit-card-form__cvv-icon,
+.svg_yes .pay-card_type_vk-wallet-ios .pay-card__select-card .control-label:after,
+.svg_yes .pay-card_type_vk-wallet .credit-card-form__label .credit-card-form__cvv-icon,
+.svg_yes .pay-card_type_vk-wallet .credit-card-form__tooltip_type_cvv .credit-card-form__tooltip-close,
+.svg_yes .pay-card_type_vk-wallet .pay-card__select-card .control-label:after,
+.svg_yes .secure-information_type_vk-wallet-android .secure-information__icon,
+.svg_yes .secure-information_type_vk-wallet-ios .secure-information__icon,
+.svg_yes .secure-information_type_vk-wallet .secure-information__icon,
+.svg_yes .vk-wallet-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-wallet-icons/vk-wallet-icons.svg?85")
+}
+
+.svg_no .control__select_type_vk.control__select.selectBox-dropdown .selectBox-arrow,
+.svg_no .extended-select-box .selectBox-dropdown-menu .selectBox-option.selectBox-selected:after,
+.svg_no .pay-card_type_vk-wallet-android .credit-card-form__label .credit-card-form__cvv-icon,
+.svg_no .pay-card_type_vk-wallet-android .pay-card__select-card .control-label:after,
+.svg_no .pay-card_type_vk-wallet-ios .credit-card-form__label .credit-card-form__cvv-icon,
+.svg_no .pay-card_type_vk-wallet-ios .pay-card__select-card .control-label:after,
+.svg_no .pay-card_type_vk-wallet .credit-card-form__label .credit-card-form__cvv-icon,
+.svg_no .pay-card_type_vk-wallet .credit-card-form__tooltip_type_cvv .credit-card-form__tooltip-close,
+.svg_no .pay-card_type_vk-wallet .pay-card__select-card .control-label:after,
+.svg_no .secure-information_type_vk-wallet-android .secure-information__icon,
+.svg_no .secure-information_type_vk-wallet-ios .secure-information__icon,
+.svg_no .secure-information_type_vk-wallet .secure-information__icon,
+.svg_no .vk-wallet-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-wallet-icons/vk-wallet-icons.png?85")
+}
+
+.vk-wallet-icon {
+	background-repeat: no-repeat
+}
+
+.vk-wallet-icon_name_load {
+	background-position: 0 0;
+	width: 54px;
+	height: 54px
+}
+
+.vk-wallet-icon_name_success {
+	background-position: -59px 0;
+	width: 96px;
+	height: 96px
+}
+
+.pay-card_type_vk-wallet-android .credit-card-form__label .credit-card-form__cvv-icon,
+.pay-card_type_vk-wallet-ios .credit-card-form__label .credit-card-form__cvv-icon,
+.pay-card_type_vk-wallet .credit-card-form__label .credit-card-form__cvv-icon,
+.vk-wallet-icon_name_info {
+	background-position: -160px 0;
+	width: 22px;
+	height: 22px
+}
+
+.extended-select-box .selectBox-dropdown-menu .selectBox-option.selectBox-selected:after,
+.vk-wallet-icon_name_check {
+	background-position: -187px 0;
+	width: 24px;
+	height: 24px
+}
+
+.pay-card_type_vk-wallet .credit-card-form__tooltip_type_cvv .credit-card-form__tooltip-close,
+.vk-wallet-icon_name_cross {
+	background-position: -216px 0;
+	width: 10px;
+	height: 10px
+}
+
+.pay-card_type_vk-wallet-android .credit-card-form__label_error_yes.credit-card-form__label .credit-card-form__cvv-icon,
+.pay-card_type_vk-wallet-ios .credit-card-form__label_error_yes.credit-card-form__label .credit-card-form__cvv-icon,
+.pay-card_type_vk-wallet .credit-card-form__label_error_yes.credit-card-form__label .credit-card-form__cvv-icon,
+.vk-wallet-icon_name_info-red {
+	background-position: -231px 0;
+	width: 22px;
+	height: 22px
+}
+
+.control__select_type_vk.control__select.selectBox-dropdown .selectBox-arrow,
+.pay-card_type_vk-wallet-android .pay-card__select-card .control-label:after,
+.pay-card_type_vk-wallet-ios .pay-card__select-card .control-label:after,
+.pay-card_type_vk-wallet .pay-card__select-card .control-label:after,
+.vk-wallet-icon_name_select-box-arrow {
+	background-position: -258px 0;
+	width: 14px;
+	height: 8px
+}
+
+.secure-information_type_vk-wallet-android .secure-information__icon,
+.secure-information_type_vk-wallet-ios .secure-information__icon,
+.secure-information_type_vk-wallet .secure-information__icon,
+.vk-wallet-icon_name_grey-lock {
+	background-position: -277px 0;
+	width: 12px;
+	height: 14px
+}
+
+.svg_yes .vk-wallet-icon-android {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-wallet-android-icons/vk-wallet-android-icons.svg?85")
+}
+
+.svg_no .vk-wallet-icon-android {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-wallet-android-icons/vk-wallet-android-icons.png?85")
+}
+
+.vk-wallet-icon-android {
+	background-repeat: no-repeat
+}
+
+.vk-wallet-icon-android_name_load {
+	background-position: 0 0;
+	width: 32px;
+	height: 32px
+}
+
+.svg_yes .vk-wallet-icon-ios {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-wallet-ios-icons/vk-wallet-ios-icons.svg?85")
+}
+
+.svg_no .vk-wallet-icon-ios {
+	background-image: url("/img/merchant/DMR/blocks/icons/vk-wallet-ios-icons/vk-wallet-ios-icons.png?85")
+}
+
+.vk-wallet-icon-ios {
+	background-repeat: no-repeat
+}
+
+.vk-wallet-icon-ios_name_load {
+	background-position: 0 0;
+	width: 24px;
+	height: 24px
+}
+
+.svg_yes .lootdog-icon,
+.svg_yes .pay-card-layout_type_lootdog .credit-card-form__cvv-icon:before,
+.svg_yes .pay-card-layout_type_lootdog .pay-card__card-selector:before,
+.svg_yes .pay-card-layout_type_lootdog .selectBox-arrow:before,
+.svg_yes .secure-information_type_lootdog .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/lootdog-icons/lootdog-icons.svg?85")
+}
+
+.svg_no .lootdog-icon,
+.svg_no .pay-card-layout_type_lootdog .credit-card-form__cvv-icon:before,
+.svg_no .pay-card-layout_type_lootdog .pay-card__card-selector:before,
+.svg_no .pay-card-layout_type_lootdog .selectBox-arrow:before,
+.svg_no .secure-information_type_lootdog .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/lootdog-icons/lootdog-icons.png?85")
+}
+
+.lootdog-icon {
+	background-repeat: no-repeat
+}
+
+.lootdog-icon_name_load {
+	background-position: 0 0;
+	width: 58px;
+	height: 58px
+}
+
+.lootdog-icon_name_success {
+	background-position: -63px 0;
+	width: 58px;
+	height: 58px
+}
+
+.lootdog-icon_name_fail {
+	background-position: -126px 0;
+	width: 54px;
+	height: 44px
+}
+
+.lootdog-icon_name_shield,
+.secure-information_type_lootdog .secure-information__icon {
+	background-position: -185px 0;
+	width: 20px;
+	height: 20px
+}
+
+.lootdog-icon_name_info,
+.pay-card-layout_type_lootdog .credit-card-form__cvv-icon:before {
+	background-position: -210px 0;
+	width: 20px;
+	height: 20px
+}
+
+.lootdog-icon_name_select-box-arrow_down,
+.pay-card-layout_type_lootdog .pay-card__card-selector:before,
+.pay-card-layout_type_lootdog .selectBox-arrow:before {
+	background-position: -235px 0;
+	width: 10px;
+	height: 7px
+}
+
+.lootdog-icon_name_select-box-arrow_up,
+.pay-card-layout_type_lootdog .selectBox-menuShowing .selectBox-arrow:before {
+	background-position: -250px 0;
+	width: 10px;
+	height: 7px
+}
+
+.svg_yes .jinn-mobile-icon,
+.svg_yes .secure-information_type_ganesha .secure-information__icon,
+.svg_yes .secure-information_type_jinn-mobile .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/jinn-mobile-icons/jinn-mobile-icons.svg?85")
+}
+
+.svg_no .jinn-mobile-icon,
+.svg_no .secure-information_type_ganesha .secure-information__icon,
+.svg_no .secure-information_type_jinn-mobile .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/jinn-mobile-icons/jinn-mobile-icons.png?85")
+}
+
+.jinn-mobile-icon {
+	background-repeat: no-repeat
+}
+
+.jinn-mobile-icon_name_shield-icon,
+.secure-information_type_ganesha .secure-information__icon,
+.secure-information_type_jinn-mobile .secure-information__icon {
+	background-position: 0 0;
+	width: 19px;
+	height: 26px
+}
+
+.svg_yes .beepcar-icon,
+.svg_yes .pay-card-layout_type_beepcar .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/beepcar-icons/beepcar-icons.svg?85")
+}
+
+.svg_no .beepcar-icon,
+.svg_no .pay-card-layout_type_beepcar .secure-information__icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/beepcar-icons/beepcar-icons.png?85")
+}
+
+.beepcar-icon {
+	background-repeat: no-repeat
+}
+
+.beepcar-icon_name_secure-icon,
+.pay-card-layout_type_beepcar .secure-information .secure-information__icon {
+	background-position: 0 0;
+	width: 24px;
+	height: 24px
+}
+
+.beepcar-icon_name_alert {
+	background-position: -29px 0;
+	width: 121px;
+	height: 104px
+}
+
+.beepcar-icon_name_load {
+	background-position: -155px 0;
+	width: 116px;
+	height: 116px
+}
+
+.beepcar-icon_name_success {
+	background-position: -276px 0;
+	width: 116px;
+	height: 116px
+}
+
+.svg_yes .ali-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/ali-icons/ali-icons.svg?85")
+}
+
+.svg_no .ali-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/ali-icons/ali-icons.png?85")
+}
+
+.ali-icon {
+	background-repeat: no-repeat
+}
+
+.ali-icon_name_error {
+	background-position: 0 0;
+	width: 15px;
+	height: 15px
+}
+
+.ali-icon_name_success {
+	background-position: -20px 0;
+	width: 45px;
+	height: 45px
+}
+
+.ali-icon_name_alert {
+	background-position: -70px 0;
+	width: 45px;
+	height: 39px
+}
+
+.odnoklassniki-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/odnoklassniki.png")
+}
+
+.odnoklassniki-icon_name_sad {
+	background-position: 0 0;
+	width: 112px;
+	height: 112px
+}
+
+.odnoklassniki-icon_name_smile {
+	background-position: -113px 0;
+	width: 112px;
+	height: 112px
+}
+
+.svg_yes .citymobil-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/citymobil-icons/citymobil-icons.svg?85")
+}
+
+.svg_no .citymobil-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/citymobil-icons/citymobil-icons.png?85")
+}
+
+.citymobil-icon {
+	background-repeat: no-repeat
+}
+
+.citymobil-icon_name_load {
+	background-position: 0 0;
+	width: 116px;
+	height: 117px
+}
+
+.citymobil-icon_name_fail {
+	background-position: -121px 0;
+	width: 63px;
+	height: 62px
+}
+
+.citymobil-icon_name_success {
+	background-position: -189px 0;
+	width: 116px;
+	height: 117px
+}
+
+.svg_yes .pay-card_type_wamba .credit-card-form__cvv-icon,
+.svg_yes .pay-card_type_wamba .credit-card-form__tooltip-icon,
+.svg_yes .wamba-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/wamba-icons/wamba-icons.svg?85")
+}
+
+.svg_no .pay-card_type_wamba .credit-card-form__cvv-icon,
+.svg_no .pay-card_type_wamba .credit-card-form__tooltip-icon,
+.svg_no .wamba-icon {
+	background-image: url("/img/merchant/DMR/blocks/icons/wamba-icons/wamba-icons.png?85")
+}
+
+.wamba-icon {
+	background-repeat: no-repeat
+}
+
+.pay-card_type_wamba .credit-card-form__tooltip-icon,
+.wamba-icon_name_cvv {
+	background-position: 0 0;
+	width: 320px;
+	height: 140px
+}
+
+.pay-card_type_wamba .credit-card-form__label:hover .credit-card-form__tooltip_visible_yes+.credit-card-form__cvv-icon,
+.pay-card_type_wamba .credit-card-form__tooltip_visible_yes+.credit-card-form__cvv-icon,
+.wamba-icon_name_i-active-yes {
+	background-position: -325px 0;
+	width: 24px;
+	height: 24px
+}
+
+.pay-card_type_wamba .credit-card-form__cvv-icon,
+.pay-card_type_wamba .credit-card-form__label:hover .credit-card-form__cvv-icon,
+.wamba-icon_name_i {
+	background-position: -354px 0;
+	width: 24px;
+	height: 24px
+}
+
+.svg_yes .vk-pay-icon {
+	background-image: url("../../img/vk-pay-icons.svg?85")
+}
+
+.svg_no .vk-pay-icon {
+	background-image: url("../../img/vk-pay-icons.png?85")
+}
+
+.vk-pay-icon {
+	background-repeat: no-repeat
+}
+
+.vk-pay-icon_name_logo {
+	background-position: 0 0;
+	width: 88px;
+	height: 32px
+}
+
+.vk-pay-icon_name_cross {
+	background-position: -93px 0;
+	width: 30px;
+	height: 30px
+}
+
+.vk-pay-icon_name_info {
+	background-position: -128px 0;
+	width: 24px;
+	height: 24px
+}
+
+.vk-pay-icon_name_info-blue {
+	background-position: -157px 0;
+	width: 24px;
+	height: 24px
+}
+
+.vk-pay-icon_name_success {
+	background-position: -186px 0;
+	width: 64px;
+	height: 64px
+}
+
+.vk-pay-icon_name_error {
+	background-position: -255px 0;
+	width: 64px;
+	height: 64px
+}
+
+.vk-pay-icon_name_back {
+	background-position: -324px 0;
+	width: 44px;
+	height: 44px
+}
+
+.control__select.selectBox-dropdown {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0
+}
+
+.control__select.selectBox-dropdown:hover {
+	text-decoration: none
+}
+
+.control__select.selectBox-dropdown:focus {
+	border-color: #ccc
+}
+
+.control__select.selectBox-dropdown:focus .selectBox-arrow {
+	border-color: #000 transparent transparent
+}
+
+.control__select.selectBox-dropdown .selectBox-label {
+	width: auto!important;
+	display: block;
+	padding: 5px 10px
+}
+
+.control__select.selectBox-dropdown .selectBox-arrow {
+	background: #fff;
+	border-width: 3px 3px 0;
+	border-color: #000 transparent transparent;
+	border-style: solid solid inset inset;
+	width: auto;
+	height: auto;
+	top: 50%;
+	margin-top: -2px;
+	right: 5px
+}
+
+.control__select-selectBox-dropdown-menu.selectBox-options li a {
+	color: #000;
+	font-size: 15px;
+	line-height: 28px
+}
+
+.control__select-selectBox-dropdown-menu.selectBox-options li a:hover {
+	text-decoration: none
+}
+
+ul.control__select_type_ok-p2p-selectBox-dropdown-menu {
+	padding: 10px 0;
+	border-color: #d8d8d8;
+	border-radius: 3px
+}
+
+ul.control__select_type_ok-p2p-selectBox-dropdown-menu li {
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+ul.control__select_type_ok-p2p-selectBox-dropdown-menu li a {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer
+}
+
+ul.control__select_type_ok-p2p-selectBox-dropdown-menu li:last-child {
+	border-top: 1px solid #d8d8d8
+}
+
+.pay-window_type_ok-p2p a.control__select,
+.pay-window_type_ok-p2p select.control__select {
+	margin: -5px 0 0;
+	border: 0;
+	font-size: 13px;
+	color: #666;
+	cursor: pointer
+}
+
+.pay-window_type_ok-p2p select.control__select {
+	padding: 5px 0 5px 5px
+}
+
+.pay-window_type_ok-p2p a.control__select {
+	padding: 0
+}
+
+.pay-window_type_ok-p2p .control__select.selectBox-dropdown .selectBox-label {
+	padding-left: 0;
+	padding-right: 0
+}
+
+.pay-window_type_ok-p2p .control__select.selectBox-dropdown .selectBox-arrow {
+	right: 15px;
+	border-width: 4px 4px 0;
+	border-color: #666 transparent transparent
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 46px
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-selection--single {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	height: 46px;
+	outline: none
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 46px
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #000 transparent transparent;
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.control__select_type_edok-select2.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+	border-color: transparent transparent #000
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-results&gt;.select2-results__options {
+	margin: 0
+}
+
+.control__select_type_edok-select2 .select2-results__option {
+	color: #000;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	border: 2px solid transparent;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 8px
+}
+
+.control__select_type_edok-select2.control__select_type_img .select2-results__option {
+	text-align: center
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background-color: rgba(0, 0, 0, .05);
+	color: #000
+}
+
+.control__select_type_edok-select2.select2-container--default .select2-results__option[aria-selected=true] {
+	border-color: #168de2;
+	background-color: transparent
+}
+
+.control__select_type_edok-select2 .img-logo {
+	font-size: 0;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	height: 38px;
+	cursor: pointer
+}
+
+.control__input,
+.control__textarea {
+	background: #f2f2f2;
+	padding: 6px 10px;
+	border: 1px solid #dcdcdc;
+	font-size: 13px;
+	-webkit-transition: border .25s ease-in-out, margin .25s, -webkit-box-shadow .25s ease-in-out;
+	transition: border .25s ease-in-out, margin .25s, -webkit-box-shadow .25s ease-in-out;
+	-o-transition: border .25s ease-in-out, box-shadow .25s ease-in-out, margin .25s;
+	transition: border .25s ease-in-out, box-shadow .25s ease-in-out, margin .25s;
+	transition: border .25s ease-in-out, box-shadow .25s ease-in-out, margin .25s, -webkit-box-shadow .25s ease-in-out
+}
+
+.control__input:focus,
+.control__textarea:focus {
+	-webkit-box-shadow: 0 0 5px #81c8ff;
+	box-shadow: 0 0 5px #81c8ff;
+	border: 1px solid #81c8ff
+}
+
+.control_layout_vertical .control-label__text {
+	margin: -4px 0 5px
+}
+
+.control_layout_horizontal .control__checkbox,
+.control_layout_horizontal .control__input,
+.control_layout_horizontal .control__radio,
+.control_layout_horizontal .control__select,
+.control_layout_horizontal .control__textarea {
+	margin-right: 7px
+}
+
+.control_error_yes .control__checkbox,
+.control_error_yes .control__input,
+.control_error_yes .control__select {
+	margin-bottom: 10px
+}
+
+.control_error_yes .control__input {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-color: transparent;
+	outline: 2px solid #f33;
+	outline-offset: -2px
+}
+
+.control__error-text {
+	color: #f33;
+	margin: -4px 0 5px
+}
+
+.control_multiline_yes .control-label__text {
+	margin-left: 20px
+}
+
+.control_multiline_yes .control__error-text {
+	margin-left: 20px;
+	margin-top: 0
+}
+
+.control__mask,
+.control__placeholder {
+	font-size: 12px;
+	color: #666;
+	top: 0;
+	left: 10px;
+	line-height: 30px
+}
+
+.control__select.selectBox-dropdown .selectBox-label {
+	padding: 4px 10px
+}
+
+.control__select-selectBox-dropdown-menu.selectBox-options li a {
+	font-size: inherit
+}
+
+.control__tooltip {
+	background-color: #a5cdf3;
+	padding: 5px 10px;
+	top: -10px;
+	left: 255px;
+	width: 210px;
+	line-height: normal;
+	-webkit-transition: visibility 0s linear .25s, opacity .25s;
+	-o-transition: visibility 0s linear .25s, opacity .25s;
+	transition: visibility 0s linear .25s, opacity .25s
+}
+
+.control__tooltip_visible_yes {
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	z-index: 1
+}
+
+.control__tooltip:after {
+	right: 100%;
+	top: 25px;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #a5cdf3;
+	border-width: 10px;
+	margin-top: -10px
+}
+
+.control_mask-type_phone-code .control__mask {
+	font-size: 13px
+}
+
+.control_mask-type_phone-code .control__input {
+	padding-left: 25px
+}
+
+.control .intl-tel-input {
+	margin-bottom: 10px
+}
+
+.control .intl-tel-input .iti-flag {
+	background-image: url("/img/3-party/jquery-plugins/intl-tel-input/flags.png?v=1")
+}
+
+.retina_yes .control .intl-tel-input .iti-flag {
+	background-image: url("/img/3-party/jquery-plugins/intl-tel-input/flags@2x.png?v=1");
+	-webkit-background-size: 5630px 15px;
+	background-size: 5630px 15px
+}
+
+.control .intl-tel-input .country-list .country {
+	padding: 0 8px
+}
+
+.control .intl-tel-input .selected-flag {
+	outline: 0
+}
+
+.control .intl-tel-input .selected-flag .iti-arrow {
+	border-top: 3px solid #000
+}
+
+.payment-info-table {
+	margin: 0 0 20px
+}
+
+.payment-info-table__caption {
+	margin: 0 0 10px;
+	font-size: 13px;
+	text-align: left;
+	color: #666
+}
+
+.payment-info-table__cell,
+.payment-info-table__head {
+	width: 50%;
+	border: 0;
+	font-size: 13px;
+	line-height: 19px
+}
+
+.payment-info-table__head {
+	padding: 0 5px 0 0;
+	color: #666;
+	vertical-align: top
+}
+
+.payment-info-table__cell {
+	padding: 0 0 0 5px;
+	vertical-align: bottom
+}
+
+.info-block {
+	color: #666;
+	display: block
+}
+
+.info-block .text_color_dark {
+	color: #333
+}
+
+.info-block .img {
+	margin: 0 auto 20px;
+	display: block;
+	color: #333
+}
+
+.info-block .title {
+	font-size: 15px;
+	line-height: 20px;
+	margin: -4px 0 15px;
+	display: block
+}
+
+.info-block .title_caps_yes {
+	text-transform: uppercase
+}
+
+.info-block .title_font-size_small {
+	font-size: 12px;
+	margin: -5px 0 15px
+}
+
+.info-block .title_bold_yes {
+	font-weight: 700
+}
+
+.info-block .paragraph {
+	margin: -5px 0 15px;
+	display: block
+}
+
+.info-block .paragraph_font-size_large {
+	font-size: 15px
+}
+
+.info-block .paragraph_font-size_small {
+	font-size: 12px
+}
+
+.info-block .list-item {
+	line-height: 20px;
+	margin: -5px 0 15px
+}
+
+.info-block .list_marker_dash .list-item {
+	padding: 0 0 0 20px;
+	position: relative
+}
+
+.info-block .list_marker_dash .list-item:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "\2014";
+	color: #333
+}
+
+.info-block .list_font-size_big {
+	font-size: 15px
+}
+
+.info-block .list_items-spacing_small {
+	margin: 0 0 15px
+}
+
+.info-block .list_items-spacing_small .list-item {
+	margin: -5px 0 10px
+}
+
+.info-block .img-link,
+.info-block .info-block__content {
+	display: block
+}
+
+.info-block .list-item-link {
+	color: #333;
+	display: block
+}
+
+.info-block_type_title .title {
+	font-size: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+	margin: -2px 0 -3px;
+	color: #333
+}
+
+.info-block_img-position_left .info-block__content,
+.info-block_img-position_left .info-block__img-wrapper,
+.info-block_img-position_right .info-block__content,
+.info-block_img-position_right .info-block__img-wrapper {
+	display: table-cell;
+	vertical-align: middle
+}
+
+.info-block_img-position_left .info-block__content,
+.info-block_img-position_right .info-block__content {
+	width: 100%
+}
+
+.info-block_img-position_left .img,
+.info-block_img-position_right .img {
+	margin: 0
+}
+
+.info-block_img-position_left .info-block__content {
+	padding-left: 20px
+}
+
+.info-block_img-position_ri

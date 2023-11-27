@@ -1,0 +1,135 @@
+body {
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	background-color: #fff;
+	color: #111;
+	padding: 0 15px;
+	overflow-y: hidden;
+}
+
+.form-container {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-block {
+	max-width: 480px;
+	margin: 0 auto;
+	float: left;
+}
+
+.form-block-header-text {
+	font-size: 20px;
+	margin: 0;
+	margin-top: 25px;
+}
+
+.form-block-body-text {
+	line-height: 22px;
+}
+
+.form-block-body-table {
+	border-spacing: 0;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.form-block-body-table tr {
+	line-height: 24px;
+}
+
+.form-block-body-table tr td:nth-child(odd) {
+	padding-right: 40px;
+}
+
+.form-block-body-table tr td:nth-child(even) {
+	font-weight: 700;
+}
+
+.form-block-body-notification {
+	font-size: 13px;
+	line-height: 18px;
+	background-color: #f5f6f7;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+	border: 1px solid #e1e1ea;
+	border-radius: 4px;
+	padding: 10px 15px;
+	margin-bottom: 25px;
+}
+
+.form-block-footer-text {
+	font-weight: 700;
+}
+
+.form-block-footer-input {
+	display: block;
+	width: calc(100% - 32px);
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	border: 0 solid;
+	border-radius: 4px;
+	padding: 12px 15px;
+	box-shadow: inset 0 0 0 1px #c7cbce, 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.form-block-footer-input:focus {
+	box-shadow: inset 0 0 0 1px #00ad64, 0 2px 4px rgba(0, 0, 0, .1);
+	outline: none;
+}
+
+.input-invalid {
+	box-shadow: inset 0 0 0 1px #f70808, 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.form-block-footer-input::-webkit-outer-spin-button,
+.form-block-footer-input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0; 
+}
+
+.form-block-footer-button {
+	display: block;
+	max-width: 480px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #00ad64;
+	border-radius: 4px;
+	color: #fff;
+	padding: 15px 5px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.form-block-footer-button:hover {
+	background-color: #009556;
+}
+
+@media (max-width: 360px) {
+	.form-block-image {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.form-block-header-text {
+		position: static;
+		display: block;
+	}
+}
+
+@media (max-height: 680px) {
+	body {
+		overflow-y: auto;
+		padding: 15px;
+	}
+
+	.form-container {
+		display: block;
+	}
+
+	.form-block-footer-button {
+		margin-bottom: 25px;
+	}
+}

@@ -1,0 +1,1 @@
+<a href="{full-link}">{title}</a><br/><br/>

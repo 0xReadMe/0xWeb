@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /danpay.php
+Disallow: /sucpay.php
+Disallow: /reset
+Disallow: /?id=*
+Disallow: /?i=*
+Disallow: /?ref=*
+
+Host: https://mn-cash.ml/

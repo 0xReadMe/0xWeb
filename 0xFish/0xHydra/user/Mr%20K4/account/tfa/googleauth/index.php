@@ -1,0 +1,1 @@
+<?php define('INCLUDE_CHECK',true); require '../../../../../crookedmirror.php';

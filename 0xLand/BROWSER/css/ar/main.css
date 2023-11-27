@@ -1,0 +1,70 @@
+.content .lside {
+	float: right;
+}
+.content .rside {
+	float: left;
+	margin-left: 75px;
+}
+.logo {
+	float: right;
+}
+div.langmenu {
+	float: left;
+}
+p.header, h1.header, p.text {
+	text-align: right;
+	direction: rtl;	
+}
+div.version, .download {
+	display: inline-block;
+	margin-left: 50px;
+}
+.download a {
+	font-size: 50px;
+}
+.copyright {
+	display: none;
+}
+.footer_menu {
+	float: left;
+}
+.watchvideo {
+	margin: -50px 0px 0px 0px;
+}
+#feedbackForm_ {
+	direction: rtl;
+    padding-right: 370px;
+}
+.feedbackform textarea {
+	 margin-right: 145px;
+     margin-top: -50px;
+}
+.feedbackform .filehelper {
+	margin: 10px 145px 0px 0px;
+}
+#feedbackForm_ .download {
+	margin-right: 200px;	
+}
+.helper {
+	margin: -50px 0px 0px 400px;
+    direction: rtl;	
+}
+.feedbackform label {
+	width: 120px;
+}
+#fb_block .subscribe_advan {
+	text-align: right;
+	direction: rtl;
+}
+#fb_block .subscribe_advan_list li {
+	text-align: right;
+	direction: rtl;
+}
+#fb_block .subscribe_vk_widget {
+	padding-top: 2px;
+	text-align: right;
+}
+.chatwnd {
+	background: url('../../img/chat_ar.png') no-repeat;	
+}
+

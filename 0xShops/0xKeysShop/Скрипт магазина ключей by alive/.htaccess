@@ -1,0 +1,14 @@
+php_flag display_errors on
+php_flag display_startup_errors on
+DirectoryIndex index.html index.php
+RewriteEngine On
+RewriteRule ^game$ index.php
+RewriteRule ^search$ index.php
+RewriteRule ^catalog$ index.php
+RewriteRule ^faq$ index.php
+RewriteRule ^purchases$ index.php
+RewriteRule ^profile$ index.php
+RewriteRule ^user$ index.php
+RewriteRule ^account$ index.php
+RewriteRule ^info$ index.php
+RewriteRule ^terms$ index.php

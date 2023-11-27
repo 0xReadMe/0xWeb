@@ -1,0 +1,293 @@
+
+.faq_wrap {
+	font-family: 'PT Sans', sans-serif;
+}
+.center_small {
+  width: 740px;
+  margin: 0 auto;
+   font-family: 'PT Sans', sans-serif;
+}
+.content .block {
+  width: 975px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content .block .title {
+  display: block;
+  width: 740px;
+  margin: 0 auto;
+  position: relative;
+}
+.content .block .title span {
+  color: #007083;
+  font-size: 22px;
+  border-bottom: 1px dashed #007083;
+  line-height: 36px;
+  cursor: pointer;
+}
+.content .block .title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: -25px;
+  top: 19px;
+  background: #007083;
+}
+.content .block .descr {
+  display: none;
+  padding-top: 15px;
+}
+.content .block .descr p {
+  width: 740px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+.content .block .descr p a {
+  color: #007083;
+}
+.content .block .descr p img {
+  display: block;
+  width: 100%;
+}
+.pr img {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.pr .text {
+  position: absolute;
+  color: #007083;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 22px;
+  z-index: 2;
+}
+.pr.pr_1 .text_1 {
+  left: 0px;
+  top: 45px;
+}
+.pr.pr_1 .text_2 {
+  left: 370px;
+  top: 0px;
+}
+.pr.pr_1 .text_3 {
+  right: 0px;
+  top: 20px;
+}
+.pr.pr_1 .text_4 {
+  left: 0px;
+  top: 580px;
+}
+.pr.pr_1 .text_5 {
+  right: 0px;
+  top: 590px;
+}
+.pr.pr_2 .text_1 {
+  left: 97px;
+  top: 2px;
+}
+.pr.pr_2 .text_2 {
+  left: 98px;
+  bottom: 2px;
+}
+.pr.pr_3 .text_1 {
+  left: 298px;
+  top: 2px;
+}
+.pr.pr_3 .text_2 {
+  left: 623px;
+  top: 2px;
+}
+.pr.pr_3 .text_3 {
+  right: 0px;
+  top: 25px;
+}
+.pr.pr_3 .text_4 {
+  left: 302px;
+  top: 200px;
+}
+.pr.pr_3 .text_5 {
+  right: 0px;
+  top: 222px;
+}
+.pr.pr_3 .text_6 {
+  right: 30px;
+  top: 385px;
+}
+.pr.pr_3 .text_7 {
+  left: 120px;
+  top: 720px;
+}
+.pr.pr_3 .text_8 {
+  left: 285px;
+  bottom: 5px;
+}
+.pr.pr_4 .text_1 {
+  left: 75px;
+  top: 0px;
+}
+.pr.pr_4 .text_2 {
+  left: 72px;
+  bottom: 2px;
+}
+.pr.pr_5 .text_1 {
+  left: 80px;
+  top: 2px;
+}
+.pr.pr_5 .text_2 {
+  left: 290px;
+  top: 2px;
+}
+.pr.pr_5 .text_3 {
+  left: 65px;
+  top: 105px;
+}
+.pr.pr_5 .text_4 {
+  right: 0px;
+  top: 135px;
+}
+.pr.pr_5 .text_5 {
+  left: 576px;
+  top: 240px;
+}
+.pr.pr_5 .text_6 {
+  left: 25px;
+  top: 410px;
+}
+.pr.pr_5 .text_7 {
+  left: 60px;
+  top: 523px;
+}
+.pr.pr_5 .text_8 {
+  left: 530px;
+  top: 490px;
+}
+.pr.pr_6 .text_1 {
+  left: 340px;
+  top: 0px;
+}
+.pr.pr_6 .text_2 {
+  left: 0px;
+  top: 115px;
+}
+.pr.pr_6 .text_3 {
+  left: 733px;
+  bottom: 2px;
+}
+.pr.pr_7 .text_1 {
+  left: 0px;
+  top: 5px;
+}
+.content_1 p {
+  width: auto!important;
+  margin: 0!important;
+}
+.icon {
+  display: inline-block;
+  margin: 0px 2px;
+  position: relative;
+  background: url(../../img/faq/ru/spr-s1a592a8b4a.png) no-repeat;
+}
+p .icon_btn {
+  display: inline-block;
+  width: 66px;
+  height: 21px;
+  vertical-align: middle;
+	background: url(../../img/faq/ru/btn.png) no-repeat;
+}
+.img_pwd {
+	position: relative;
+	left: 100px;
+	top: -13px;
+}
+.img_pwd1 {
+
+}
+p.inline_block {
+	vertical-align:top;
+	padding-top:40px;
+	display:inline-block;
+	width:350px !important;
+	margin: 0 !important;
+	height:300px;
+	margin-left: 120px !important;
+}
+.img_pwd1 {
+	display: inline-block !important;
+	width: 406px;
+	position:relative;
+	left:-70px;
+}
+.icon_1 {
+  width: 13px;
+  height: 13px;
+}
+.icon_2 {
+  width: 19px;
+  height: 17px;
+  background-position-y: -13px;
+}
+.icon_3 {
+  width: 19px;
+  height: 17px;
+  background-position-y: -30px;
+}
+.icon_4 {
+  width: 16px;
+  height: 15px;
+  background-position-y: -47px;
+}
+.icon_5 {
+  width: 16px;
+  height: 15px;
+  background-position-y: -62px
+}
+.icon_6 {
+  width: 46px;
+  height: 25px;
+  background-position-y: -77px;
+}
+.icon_7 {
+  width: 16px;
+  height: 14px;
+  background-position-y: -102px;
+}
+.icon_8 {
+  width: 21px;
+  height: 20px;
+  background-position-y: -116px;
+}
+h1 {
+  width: 830px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.padt40 {
+  padding-top: 40px;
+}
+.tac {
+  text-align: center;
+}
+.pr {
+  position: relative;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}

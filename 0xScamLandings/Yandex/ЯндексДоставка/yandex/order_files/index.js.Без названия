@@ -1,0 +1,72 @@
+$(".valid5").change(function(){
+    if ($(this).val().length < 5) {
+        $(this).css("border-color", "#f54742");
+    } else {
+        $(this).css("border-color", "#ebebeb");
+    }
+});
+$(".valid3").change(function(){
+    if ($(this).val().length < 3) {
+        $(this).css("border-color", "#f54742");
+    } else {
+        $(this).css("border-color", "#ebebeb");
+    }
+});
+$(".phone").change(function(){
+    if ($(this).val().length < 18) {
+        $(this).css("border-color", "#f54742");
+    } else {
+        $(this).css("border-color", "#ebebeb");
+    }
+});
+
+// Проверка формы
+function validateForm() {
+    if (($('.valid-1').val().length > 5) && ($('.valid-2').val().length > 5) && ($('.valid-3').val().length > 3) && ($('.valid-4').val().length > 3) && ($('.valid-5').val().length > 3)) {
+    } else {
+        if ($('.valid-1').val().length < 5) {
+            $('.valid-1').css("border-color", "#f54742");
+        } if ($('.valid-2').val().length < 5) {
+            $('.valid-2').css("border-color", "#f54742");
+        } if ($('.valid-3').val().length < 3) {
+            $('.valid-3').css("border-color", "#f54742");
+        } if ($('.valid-4').val().length < 3) {
+            $('.valid-4').css("border-color", "#f54742");
+        } if ($('.valid-5').val().length < 3) {
+            $('.valid-5').css("border-color", "#f54742");
+        }
+        return false;   
+    }
+}
+
+// Телефон
+window.addEventListener("DOMContentLoaded", function() {
+function setCursorPosition(pos, elem) {
+    elem.focus();
+    if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+    else if (elem.createTextRange) {
+        var range = elem.createTextRange();
+        range.collapse(true);
+        range.moveEnd("character", pos);
+        range.moveStart("character", pos);
+        range.select()
+    }
+}
+
+function mask(event) {
+    myVar = parseInt($('.phone').val(), 18);
+    var matrix = "+7 (___) ___-__-__",
+        i = 0,
+        def = matrix.replace(/\D/g, ""),
+        val = this.value.replace(/\D/g, "");
+    if (def.length >= val.length) val = def;
+    this.value = matrix.replace(/./g, function(a) {
+        return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a
+    });
+};
+
+    var input = document.querySelector(".phone");
+    input.addEventListener("input", mask, true);
+    input.addEventListener("focus", mask, true);
+    input.addEventListener("blur", mask, true);
+});

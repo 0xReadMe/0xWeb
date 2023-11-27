@@ -1,0 +1,17 @@
+.rmenu {
+    width: 430px;
+}
+
+.rmenu li {
+    margin-right: 35px;
+}
+
+.helper {width: 210px;}
+
+.chatwnd {
+     background: url('../../img/chat_en.png') no-repeat;
+     width: 535px;
+     height: 439px;  
+     position: relative;
+     margin: -35px 0px 0px -17px;
+}

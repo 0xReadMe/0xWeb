@@ -1,0 +1,36 @@
+﻿body {
+    font-family: 'COMIC SANS MS', sans-serif;
+	background-image	:	url("images/123.png");
+}
+.hhead {
+    color:#FFFFFF;
+    text-shadow: black 5px 5px 5px;
+}
+a.button7 {
+  width: 250px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 4px;
+  background: rgb(57,227,221);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+th {
+    font-family: COMIC SANS MS;
+    font-size: 19px;
+}
+TABLE {
+    background: white; /* Цвет фона таблицы */
+    border: double black; ; /* Рамка вокруг таблицы */
+	padding: 7px;
+   }
+.foot {
+    
+}

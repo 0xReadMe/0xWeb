@@ -1,0 +1,742 @@
+/*
+ * CSS Reset
+ * ----------------------------------------------------------------------------
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+address {
+    font-style: italic;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 12px;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 12px;
+    overflow: auto;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+blockquote,
+q {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+small {
+    font-size: smaller;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+dl {
+    margin: 0 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 20px;
+}
+
+nav ul,
+nav ol,
+ol,
+ul {
+    list-style: none;
+    list-style-image: none;
+}
+
+li > ul,
+li > ol {
+    margin: 0;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    vertical-align: middle;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    padding-right: 2px; /* Don't cut off the webkit search cancel button */
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"],
+input[type="hidden"],
+input[type="image"],
+input[type="color"] {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/***/
+
+p {
+    font-size: 16px;
+}
+
+.wrap {
+    background: url('../img/land/bg_landadd.png') no-repeat -480px 0px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    padding-top: 60px;
+}
+
+.scontent {
+    margin: 0px 0px 0px 100px;;
+}
+
+.biglogo {
+    background: url('../img/land/logo_big.png') no-repeat;
+    width: 140px;
+    height: 139px;
+    position: absolute;
+}
+
+.centertext {
+    margin: 0px 0px 0px 190px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.chooseorbitum {
+    font-size: 38px;
+}
+
+.startagain {
+    font-size: 16px;
+}
+
+a, a:visited {
+    font-size: 16px;
+    color: #7cb6bf;
+    text-decoration: none;
+
+}
+
+.selectBr {
+    margin: 80px 0px 0px 50px;
+    width: 490px;
+    padding-bottom: 45px;
+}
+
+.selectBr li {
+    margin-bottom: 15px;
+}
+
+.laptop {
+    display: inline-block;
+    position: absolute;
+    background: url('../img/land/laptop.png') no-repeat;
+    width: 30px;
+    height: 25px;
+    margin-left: -50px;
+}
+
+.installOrbitum {
+    font-size: 24px;
+}
+
+.preinstall_ie {
+    background: url('../img/land/down_ie.png') no-repeat;
+    width: 620px;
+    height: 85px;
+    margin: 15px 0px 40px 0px;
+}
+
+.preinstall_ff {
+    background: url('../img/land/down_ff.png') no-repeat;
+    width: 423px;
+    height: 173px;
+    margin: 15px 0px 40px 0px;
+}
+
+.preinstall_chrome {
+    background: url('../img/land/down_chrome.png') no-repeat;
+    width: 206px;
+    height: 37px;
+    margin: 15px 0px 40px 0px;
+}
+
+/*
+ * CSS styles
+ * ----------------------------------------------------------------------------
+ */
+
+.content {
+    margin-top: 0px;
+    height: auto;
+}
+
+#frame-content * {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+#frame-content {
+    width: 100%;
+    height: 100%;
+    min-height: 750px;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 101;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+
+#frame-content a {
+    color: #007c8c;
+    text-decoration: underline;
+}
+
+#frame-content a:hover {
+    text-decoration: none;
+}
+
+#frame-content h2 {
+    font-size: 23px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+#frame-content .fluid-wrapper {
+    position: relative;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    margin: 0 auto;
+    padding: 50px 0 20px 110px;
+    text-align: left;
+    max-width: 500px;
+    max-height: 250px;
+}
+
+#frame-content .fluid-wrapper .orbitum-arrow {
+    display: block;
+    position: absolute;
+    background: url("../img/setup/orbitum.png") no-repeat center center;
+    top: 50px;
+    width: 76px;
+    height: 76px;
+    left: 0;
+}
+
+#frame-content .fluid-wrapper .close-frame {
+    width: 22px;
+    height: 22px;
+    line-height: 26px;
+    background: url("../img/setup/close.png") no-repeat center center transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-top: 4px;
+}
+
+#frame-content .fluid-wrapper h2 {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#frame-content .fluid-wrapper p {
+    color: #fff;
+    display: inline-block;
+    max-width: 325px;
+    width: 100%;
+    font-size: 17px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+#frame-content .fluid-wrapper a {
+    color: #fff;
+    font-size: 17px;
+}
+
+#frame-content .instructions {
+    clear: both;
+    display: inline-block;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    max-width: 1160px;
+    min-width: 960px;
+    overflow: hidden;
+    position: relative;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    margin-top: 150px;
+}
+
+#frame-content .instructions:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+#frame-content .instructions .step {
+    display: block;
+    margin-left: 2%;
+    width: 32%;
+    float: left;
+}
+
+#frame-content .instructions .step.first {
+    margin-left: 0;
+}
+
+#frame-content .instructions .step .content {
+    text-align: left;
+    position: relative;
+}
+
+#frame-content .instructions .step .content h2 {
+    color: #010101;
+    padding-left: 60px;
+}
+
+#frame-content .instructions .step .content img {
+    margin: 15px 0 15px 60px;
+    max-width: 235px;
+    width: 100%;
+    height: auto;
+}
+
+#frame-content .instructions .step .content .wrapper-img:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#frame-content .instructions .step .content p {
+    line-height: 19px;
+    padding-left: 60px;
+}
+
+#frame-content .instructions .step .number {
+    width: 49px;
+    height: 49px;
+    line-height: 49px;
+    display: inline-block;
+    position: absolute;
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    margin-right: 11px;
+    text-align: center;
+}
+
+#frame-content .instructions .step.first .number {
+    background-color: #007c8c;
+}
+
+#frame-content .instructions .step.second .number {
+    background-color: #e75f51;
+}
+
+#frame-content .instructions .step.third .number {
+    background-color: #50c289;
+}
+
+.reveal-modal-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+/* Firefox */
+#frame-content.firefox .fluid-wrapper {
+    right: 100px;
+    padding: 70px 160px 20px 0;
+    text-align: right;
+    max-width: 560px;
+    max-height: 250px;
+    position: absolute;
+    top: 0;
+}
+
+#frame-content.firefox .fluid-wrapper .close-frame {
+    margin-right: 10px;
+    display: inline-block;
+    float: none;
+}
+
+#frame-content.firefox .fluid-wrapper .orbitum-arrow {
+    background: url("../img/setup/orbitum-firefox.png") no-repeat center center;
+    left: 425px;
+    top: 10px;
+    width: 107px;
+    height: 147px;
+}
+
+#frame-content.firefox .instructions {
+    margin-top: 240px;
+}
+
+/* Chrome */
+#frame-content.chrome .fluid-wrapper {
+    left: 150px;
+    bottom: 20px;
+    padding: 70px 0px 20px 160px;
+    text-align: left;
+    max-width: 560px;
+    max-height: 250px;
+    position: absolute;
+}
+
+#frame-content.chrome .fluid-wrapper .orbitum-arrow {
+    background: url("../img/setup/orbitum-chrome.png") no-repeat center center;
+    left: 0px;
+    bottom: 45px;
+    width: 134px;
+    height: 127px;
+}
+
+#frame-content.chrome .instructions {
+    margin-top: 150px;
+}
+
+/* Opera */
+#frame-content.opera .fluid-wrapper {
+    right: 100px;
+    padding: 90px 160px 20px 0;
+    text-align: right;
+    max-width: 560px;
+    max-height: 250px;
+    position: absolute;
+    top: 0px;
+}
+
+#frame-content.opera .fluid-wrapper .close-frame {
+    margin-right: 10px;
+    display: inline-block;
+    float: none;
+}
+
+#frame-content.opera .fluid-wrapper .orbitum-arrow {
+    background: url("../img/setup/orbitum-firefox.png") no-repeat center center;
+    left: 425px;
+    top: 10px;
+    width: 107px;
+    height: 147px;
+}
+
+#frame-content.opera .instructions {
+    margin-top: 270px;
+}
+
+/* IE 8 */
+#frame-content.ie .fluid-wrapper {
+    left: 330px;
+    padding: 70px 0px 20px 160px;
+    text-align: left;
+    max-width: 600px !important;
+    position: absolute;
+    top: 0;
+}
+
+#frame-content.ie .fluid-wrapper img.perm {
+    display: inline-block !important;
+    padding: 20px 0 0 0;
+    position: relative !important;
+
+}
+
+#frame-content.ie .instructions .step .content img {
+    width: inherit; /* Make images fill their parent's space. Solves IE8. */
+    max-width: 100%; /* Add !important if needed. */
+    height: auto; /* Add !important if needed. */
+}
+
+#frame-content.ie .fluid-wrapper .close-frame {
+    margin-right: 10px;
+    display: inline-block;
+    float: none;
+}
+
+#frame-content.ie .fluid-wrapper .orbitum-arrow {
+    background: url("../img/setup/orbitum-firefox.png") no-repeat center center;
+    left: 20px;
+    top: 30px;
+    width: 107px;
+    height: 147px;
+}
+
+#frame-content.ie .instructions {
+    margin-top: 350px;
+}
+
+#frame-content.ie .instructions .step.first .number {
+    background: url("../img/setup/ie-1.png") no-repeat center center transparent !important;
+}
+
+#frame-content.ie .instructions .step.second .number {
+    background: url("../img/setup/ie-2.png") no-repeat center center transparent !important;
+}
+
+#frame-content.ie .instructions .step.third .number {
+    background: url("../img/setup/ie-3.png") no-repeat center center transparent !important;
+}
+
+#frame-content.ie + .reveal-modal-bg {
+    background: url("../img/setup/ie-bg.png") repeat;
+}
+
+#frame-content.ie .fluid-wrapper p {
+    max-width: 100% !important;
+}
+
+#frame-content.ie .instructions .step .number {
+    text-indent: -9999px;
+}
+
+/* IE 10 */
+#frame-content.ie10 .fluid-wrapper .orbitum-arrow {
+    background: url("../img/setup/orbitum-ie.png") no-repeat center center;
+    left: 0px;
+    bottom: 10px;
+    width: 76px;
+    height: 163px;
+}
+
+#frame-content.ie10 .instructions {
+    margin-top: 150px;
+}
+
+#frame-content.ie10 .perm {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -480px;
+}
+
+#frame-content .androidOrb {
+    right: 150px;
+    bottom: 40px;
+    text-align: left;
+    width: 320px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    background-size: 100%;
+}
+
+#frame-content .androidOrb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+}
+
+#frame-content .androidOrb a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 120px;
+    position: relative;
+}
+
+#frame-content .androidOrb p {
+    font-size: 17px;
+}
+
+#frame-content.ie10 .androidOrb {
+    right: 50px;
+    bottom: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    #frame-content .androidOrb {
+        right: 30px;
+    }
+
+}
+
+#frame-content .firefox_block{
+    bottom: 10px;
+    left: 50%;
+    right: inherit;
+    margin-left: -160px;
+
+}

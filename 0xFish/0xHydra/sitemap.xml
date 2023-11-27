@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Вы не робот?</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        .page{
+            padding: 20px;width: 300px; margin: 0 auto;
+        }
+        input[type=number]{
+            width: 100px;
+            height: 24px;
+            margin-bottom: 5px;
+        }
+        img{
+            float:left;
+            margin-right: 10px;
+        }
+        input[type=submit]{
+            color: #fff;
+            background-color: #2b71b1;
+            border-color: #0073cb;
+            width: 100px;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 4px 12px;
+            font-size: 12px;
+            line-height: 1.42857143;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <form action="/gate/" method="post">
+        <img src="data:image/jpeg;base64,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" alt="Captcha image">
+        <input type="number" name="captcha" autofocus>
+        <input type="hidden" name="captchaData" value="1514134946.b2ec29ba7f498a795423001ee80018e4.6e5fcf5bcc1e7f34a34f3b1f8af85eaa">
+        <input type="submit" value="Войти">
+    </form>
+</div>
+</body>
+</html>
+

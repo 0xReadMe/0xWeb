@@ -1,0 +1,32 @@
+<?php
+
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Advert.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Resadvert.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Deladvert.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setimage.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Settitle.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setprice.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Addcard.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Delcard.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Changecard.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setdelivery.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Unwarn.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Warn.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Ban.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Unban.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Card.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Settings.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Stats.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Top.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Defaultcard.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Cards.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Qiwipay.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setmoder.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setsupport.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Stake.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setstake.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Setcard.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Info.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Minprice.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Maxprice.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/app/Chat/Moder/Commands/Msg.php';

